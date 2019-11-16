@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.2">
+<eagle version="9.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -16287,7 +16287,7 @@ Big oval pads</description>
 </part>
 <part name="SUPPLY2" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="V_BATT" device=""/>
 <part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device="" value="+7.4V"/>
-<part name="VOLTAGE_REGULATOR" library="linear" library_urn="urn:adsk.eagle:library:262" deviceset="78*" device="H" package3d_urn="urn:adsk.eagle:package:16419/1" technology="05" value="LM7805ABV">
+<part name="VR" library="linear" library_urn="urn:adsk.eagle:library:262" deviceset="78*" device="H" package3d_urn="urn:adsk.eagle:package:16419/1" technology="05" value="LM7805ABV">
 <attribute name="SPICEPREFIX" value="J"/>
 </part>
 <part name="C15" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="2,5-3" package3d_urn="urn:adsk.eagle:package:5436/1" value=".33u"/>
@@ -16825,7 +16825,7 @@ PWM we're hoping that we'll be able to control said motors.</text>
 <instance part="P+4" gate="1" x="340.36" y="127" smashed="yes">
 <attribute name="VALUE" x="342.9" y="129.54" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="VOLTAGE_REGULATOR" gate="A1" x="355.6" y="120.65" smashed="yes">
+<instance part="VR" gate="A1" x="355.6" y="120.65" smashed="yes">
 <attribute name="NAME" x="335.28" y="133.985" size="1.778" layer="95"/>
 <attribute name="VALUE" x="347.98" y="123.825" size="1.778" layer="96"/>
 </instance>
@@ -17288,7 +17288,7 @@ PWM we're hoping that we'll be able to control said motors.</text>
 <junction x="340.36" y="111.76"/>
 </segment>
 <segment>
-<pinref part="VOLTAGE_REGULATOR" gate="A1" pin="GND"/>
+<pinref part="VR" gate="A1" pin="GND"/>
 <wire x1="355.6" y1="113.03" x2="355.6" y2="111.76" width="0.1524" layer="91"/>
 <pinref part="GND22" gate="1" pin="GND"/>
 </segment>
@@ -17649,7 +17649,7 @@ PWM we're hoping that we'll be able to control said motors.</text>
 <wire x1="340.36" y1="120.65" x2="340.36" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="309.88" y1="123.19" x2="340.36" y2="123.19" width="0.1524" layer="91"/>
 <junction x="340.36" y="123.19"/>
-<pinref part="VOLTAGE_REGULATOR" gate="A1" pin="VI"/>
+<pinref part="VR" gate="A1" pin="VI"/>
 <wire x1="345.44" y1="120.65" x2="340.36" y2="120.65" width="0.1524" layer="91"/>
 <junction x="340.36" y="120.65"/>
 <label x="309.88" y="123.19" size="1.778" layer="95"/>
@@ -17659,7 +17659,7 @@ PWM we're hoping that we'll be able to control said motors.</text>
 <segment>
 <pinref part="C20" gate="G$1" pin="1"/>
 <wire x1="368.3" y1="119.38" x2="368.3" y2="120.65" width="0.1524" layer="91"/>
-<pinref part="VOLTAGE_REGULATOR" gate="A1" pin="VO"/>
+<pinref part="VR" gate="A1" pin="VO"/>
 <wire x1="365.76" y1="120.65" x2="368.3" y2="120.65" width="0.1524" layer="91"/>
 <wire x1="368.3" y1="120.65" x2="381" y2="120.65" width="0.1524" layer="91"/>
 <junction x="368.3" y="120.65"/>
