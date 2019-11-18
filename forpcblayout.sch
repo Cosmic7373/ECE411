@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.2">
+<eagle version="9.3.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -8,34 +8,34 @@
 </settings>
 <grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="2" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,20 +53,20 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
-<layer number="58" name="tCAD" color="7" fill="1" visible="no" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
+<layer number="58" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -16287,12 +16287,11 @@ Big oval pads</description>
 </part>
 <part name="SUPPLY2" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="V_BATT" device=""/>
 <part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device="" value="+7.4V"/>
-<part name="VR" library="linear" library_urn="urn:adsk.eagle:library:262" deviceset="78*" device="H" package3d_urn="urn:adsk.eagle:package:16419/1" technology="05" value="LM7805ABV">
+<part name="VR" library="linear" library_urn="urn:adsk.eagle:library:262" deviceset="78*" device="T" package3d_urn="urn:adsk.eagle:package:16414/1" technology="05" value="LM7805ABV">
 <attribute name="SPICEPREFIX" value="J"/>
 </part>
 <part name="C15" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="2,5-3" package3d_urn="urn:adsk.eagle:package:5436/1" value=".33u"/>
 <part name="C20" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="2,5-3" package3d_urn="urn:adsk.eagle:package:5436/1" value=".1u"/>
-<part name="PWM_CONNECTOR" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA04-2" device="" package3d_urn="urn:adsk.eagle:package:8368/1"/>
 <part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1K">
 <attribute name="DESC" value="RES SMD 10K OHM 1% 1/8W 0805"/>
 <attribute name="MFR" value="Yageo"/>
@@ -16836,10 +16835,6 @@ PWM we're hoping that we'll be able to control said motors.</text>
 <instance part="C20" gate="G$1" x="368.3" y="116.84" smashed="yes">
 <attribute name="NAME" x="369.824" y="117.221" size="1.778" layer="95"/>
 <attribute name="VALUE" x="369.824" y="112.141" size="1.778" layer="96"/>
-</instance>
-<instance part="PWM_CONNECTOR" gate="G$1" x="288.29" y="171.45" smashed="yes">
-<attribute name="VALUE" x="284.48" y="161.29" size="1.778" layer="96"/>
-<attribute name="NAME" x="284.48" y="177.292" size="1.778" layer="95"/>
 </instance>
 <instance part="R7" gate="G$1" x="144.78" y="86.36" smashed="yes" rot="R90">
 <attribute name="NAME" x="143.2814" y="82.55" size="1.778" layer="95" rot="R90"/>
@@ -17812,7 +17807,13 @@ PWM we're hoping that we'll be able to control said motors.</text>
 <wire x1="406.4" y1="33.02" x2="421.64" y2="33.02" width="0.1524" layer="91"/>
 <junction x="406.4" y="33.02"/>
 <junction x="421.64" y="33.02"/>
-<label x="386.08" y="-2.54" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$2" gate="G$1" pin="N1D/P1D"/>
+<wire x1="331.47" y1="12.7" x2="327.66" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="327.66" y1="12.7" x2="327.66" y2="1.27" width="0.1524" layer="91"/>
+<wire x1="327.66" y1="1.27" x2="400.05" y2="1.27" width="0.1524" layer="91"/>
+<label x="383.54" y="-1.27" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PWM_1" class="0">
@@ -17977,58 +17978,6 @@ PWM we're hoping that we'll be able to control said motors.</text>
 <wire x1="309.88" y1="120.65" x2="309.88" y2="118.11" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$2" class="0">
-<segment>
-<pinref part="PWM_CONNECTOR" gate="G$1" pin="7"/>
-<wire x1="295.91" y1="173.99" x2="303.53" y2="173.99" width="0.1524" layer="91"/>
-<junction x="295.91" y="173.99"/>
-<pinref part="PWM_CONNECTOR" gate="G$1" pin="8"/>
-<wire x1="280.67" y1="173.99" x2="270.51" y2="173.99" width="0.1524" layer="91"/>
-<wire x1="280.67" y1="173.99" x2="295.91" y2="173.99" width="0.1524" layer="91"/>
-<junction x="280.67" y="173.99"/>
-<label x="275.59" y="173.99" size="1.778" layer="95"/>
-<label x="299.72" y="173.99" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$5" class="0">
-<segment>
-<pinref part="PWM_CONNECTOR" gate="G$1" pin="1"/>
-<wire x1="295.91" y1="166.37" x2="303.53" y2="166.37" width="0.1524" layer="91"/>
-<junction x="295.91" y="166.37"/>
-<pinref part="PWM_CONNECTOR" gate="G$1" pin="2"/>
-<wire x1="280.67" y1="166.37" x2="295.91" y2="166.37" width="0.1524" layer="91"/>
-<junction x="280.67" y="166.37"/>
-<wire x1="280.67" y1="166.37" x2="271.78" y2="166.37" width="0.1524" layer="91"/>
-<label x="275.59" y="166.37" size="1.778" layer="95"/>
-<label x="299.72" y="166.37" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$6" class="0">
-<segment>
-<pinref part="PWM_CONNECTOR" gate="G$1" pin="3"/>
-<wire x1="295.91" y1="168.91" x2="303.53" y2="168.91" width="0.1524" layer="91"/>
-<junction x="295.91" y="168.91"/>
-<pinref part="PWM_CONNECTOR" gate="G$1" pin="4"/>
-<wire x1="280.67" y1="168.91" x2="295.91" y2="168.91" width="0.1524" layer="91"/>
-<junction x="280.67" y="168.91"/>
-<wire x1="280.67" y1="168.91" x2="270.51" y2="168.91" width="0.1524" layer="91"/>
-<label x="275.59" y="168.91" size="1.778" layer="95"/>
-<label x="299.72" y="168.91" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$8" class="0">
-<segment>
-<pinref part="PWM_CONNECTOR" gate="G$1" pin="5"/>
-<wire x1="295.91" y1="171.45" x2="303.53" y2="171.45" width="0.1524" layer="91"/>
-<junction x="295.91" y="171.45"/>
-<pinref part="PWM_CONNECTOR" gate="G$1" pin="6"/>
-<wire x1="280.67" y1="171.45" x2="295.91" y2="171.45" width="0.1524" layer="91"/>
-<junction x="280.67" y="171.45"/>
-<wire x1="270.51" y1="171.45" x2="280.67" y2="171.45" width="0.1524" layer="91"/>
-<label x="275.59" y="171.45" size="1.778" layer="95"/>
-<label x="299.72" y="171.45" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="N$9" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="P2G"/>
@@ -18082,12 +18031,6 @@ PWM we're hoping that we'll be able to control said motors.</text>
 <junction x="406.4" y="38.1"/>
 <junction x="421.64" y="38.1"/>
 <label x="383.54" y="55.88" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U$2" gate="G$1" pin="N1D/P1D"/>
-<wire x1="331.47" y1="12.7" x2="327.66" y2="12.7" width="0.1524" layer="91"/>
-<wire x1="327.66" y1="12.7" x2="327.66" y2="1.27" width="0.1524" layer="91"/>
-<wire x1="327.66" y1="1.27" x2="400.05" y2="1.27" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="H_BRIDGE_POWER1" class="0">
