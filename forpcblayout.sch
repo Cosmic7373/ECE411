@@ -16311,7 +16311,7 @@ Big oval pads</description>
 <part name="SV1" library="con-lsta" library_urn="urn:adsk.eagle:library:161" deviceset="FE20-2" device="" package3d_urn="urn:adsk.eagle:package:8184/1"/>
 <part name="GND26" library="supply1" deviceset="GND" device=""/>
 <part name="SUPPLY4" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
-<part name="U$1" library="bt_motordriver" deviceset="ZXMHC3F381N8" device=""/>
+<part name="LEFT_H_BRIDGE" library="bt_motordriver" deviceset="ZXMHC3F381N8" device=""/>
 <part name="T1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="2N2222" device="" package3d_urn="urn:adsk.eagle:package:6240647/1"/>
 <part name="T2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="2N2222" device="" package3d_urn="urn:adsk.eagle:package:6240647/1"/>
 <part name="R13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k">
@@ -16347,7 +16347,7 @@ Big oval pads</description>
 <attribute name="MFR" value="Yageo"/>
 <attribute name="MPN" value="RC0805FR-071KL"/>
 </part>
-<part name="U$2" library="bt_motordriver" deviceset="ZXMHC3F381N8" device=""/>
+<part name="RIGHT_H_BRIDGE" library="bt_motordriver" deviceset="ZXMHC3F381N8" device=""/>
 <part name="T3" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="2N2222" device="" package3d_urn="urn:adsk.eagle:package:6240647/1"/>
 <part name="T4" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="2N2222" device="" package3d_urn="urn:adsk.eagle:package:6240647/1"/>
 <part name="R19" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k">
@@ -16384,87 +16384,87 @@ Big oval pads</description>
 <attribute name="MPN" value="RC0805FR-071KL"/>
 </part>
 <part name="SUPPLY1" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
-<part name="R25" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="0">
+<part name="R25" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0207/2V" package3d_urn="urn:adsk.eagle:package:23490/1" value="0">
 <attribute name="DESC" value="RES SMD 10K OHM 1% 1/8W 0805"/>
 <attribute name="MFR" value="Yageo"/>
 <attribute name="MPN" value="RC0805FR-0710KL"/>
 </part>
-<part name="R26" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="0">
+<part name="R26" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0207/2V" package3d_urn="urn:adsk.eagle:package:23490/1" value="0">
 <attribute name="DESC" value="RES SMD 10K OHM 1% 1/8W 0805"/>
 <attribute name="MFR" value="Yageo"/>
 <attribute name="MPN" value="RC0805FR-0710KL"/>
 </part>
-<part name="R27" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="0">
+<part name="R27" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0207/2V" package3d_urn="urn:adsk.eagle:package:23490/1" value="0">
 <attribute name="DESC" value="RES SMD 10K OHM 1% 1/8W 0805"/>
 <attribute name="MFR" value="Yageo"/>
 <attribute name="MPN" value="RC0805FR-0710KL"/>
 </part>
-<part name="R28" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="0">
+<part name="R28" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0207/2V" package3d_urn="urn:adsk.eagle:package:23490/1" value="0">
 <attribute name="DESC" value="RES SMD 10K OHM 1% 1/8W 0805"/>
 <attribute name="MFR" value="Yageo"/>
 <attribute name="MPN" value="RC0805FR-0710KL"/>
 </part>
-<part name="R29" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="0">
+<part name="R29" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0207/2V" package3d_urn="urn:adsk.eagle:package:23490/1" value="0">
 <attribute name="DESC" value="RES SMD 10K OHM 1% 1/8W 0805"/>
 <attribute name="MFR" value="Yageo"/>
 <attribute name="MPN" value="RC0805FR-0710KL"/>
 </part>
-<part name="R30" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="0">
+<part name="R30" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0207/2V" package3d_urn="urn:adsk.eagle:package:23490/1" value="0">
 <attribute name="DESC" value="RES SMD 10K OHM 1% 1/8W 0805"/>
 <attribute name="MFR" value="Yageo"/>
 <attribute name="MPN" value="RC0805FR-0710KL"/>
 </part>
-<part name="R31" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="0">
+<part name="R31" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0207/2V" package3d_urn="urn:adsk.eagle:package:23490/1" value="0">
 <attribute name="DESC" value="RES SMD 10K OHM 1% 1/8W 0805"/>
 <attribute name="MFR" value="Yageo"/>
 <attribute name="MPN" value="RC0805FR-0710KL"/>
 </part>
-<part name="R33" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="0">
+<part name="R33" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0207/2V" package3d_urn="urn:adsk.eagle:package:23490/1" value="0">
 <attribute name="DESC" value="RES SMD 10K OHM 1% 1/8W 0805"/>
 <attribute name="MFR" value="Yageo"/>
 <attribute name="MPN" value="RC0805FR-0710KL"/>
 </part>
-<part name="R34" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="0">
+<part name="R34" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0207/2V" package3d_urn="urn:adsk.eagle:package:23490/1" value="0">
 <attribute name="DESC" value="RES SMD 10K OHM 1% 1/8W 0805"/>
 <attribute name="MFR" value="Yageo"/>
 <attribute name="MPN" value="RC0805FR-0710KL"/>
 </part>
-<part name="R35" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="0">
+<part name="R35" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0207/2V" package3d_urn="urn:adsk.eagle:package:23490/1" value="0">
 <attribute name="DESC" value="RES SMD 10K OHM 1% 1/8W 0805"/>
 <attribute name="MFR" value="Yageo"/>
 <attribute name="MPN" value="RC0805FR-0710KL"/>
 </part>
-<part name="R36" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="0">
+<part name="R36" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0207/2V" package3d_urn="urn:adsk.eagle:package:23490/1" value="0">
 <attribute name="DESC" value="RES SMD 10K OHM 1% 1/8W 0805"/>
 <attribute name="MFR" value="Yageo"/>
 <attribute name="MPN" value="RC0805FR-0710KL"/>
 </part>
-<part name="R37" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="0">
+<part name="R37" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0207/2V" package3d_urn="urn:adsk.eagle:package:23490/1" value="0">
 <attribute name="DESC" value="RES SMD 10K OHM 1% 1/8W 0805"/>
 <attribute name="MFR" value="Yageo"/>
 <attribute name="MPN" value="RC0805FR-0710KL"/>
 </part>
-<part name="R32" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="0">
+<part name="R32" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0207/2V" package3d_urn="urn:adsk.eagle:package:23490/1" value="0">
 <attribute name="DESC" value="RES SMD 10K OHM 1% 1/8W 0805"/>
 <attribute name="MFR" value="Yageo"/>
 <attribute name="MPN" value="RC0805FR-0710KL"/>
 </part>
-<part name="R38" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="0">
+<part name="R38" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0207/2V" package3d_urn="urn:adsk.eagle:package:23490/1" value="0">
 <attribute name="DESC" value="RES SMD 10K OHM 1% 1/8W 0805"/>
 <attribute name="MFR" value="Yageo"/>
 <attribute name="MPN" value="RC0805FR-0710KL"/>
 </part>
-<part name="R39" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="0">
+<part name="R39" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0207/2V" package3d_urn="urn:adsk.eagle:package:23490/1" value="0">
 <attribute name="DESC" value="RES SMD 10K OHM 1% 1/8W 0805"/>
 <attribute name="MFR" value="Yageo"/>
 <attribute name="MPN" value="RC0805FR-0710KL"/>
 </part>
-<part name="R40" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="0">
+<part name="R40" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0207/2V" package3d_urn="urn:adsk.eagle:package:23490/1" value="0">
 <attribute name="DESC" value="RES SMD 10K OHM 1% 1/8W 0805"/>
 <attribute name="MFR" value="Yageo"/>
 <attribute name="MPN" value="RC0805FR-0710KL"/>
 </part>
-<part name="R41" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="0">
+<part name="R41" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0207/2V" package3d_urn="urn:adsk.eagle:package:23490/1" value="0">
 <attribute name="DESC" value="RES SMD 10K OHM 1% 1/8W 0805"/>
 <attribute name="MFR" value="Yageo"/>
 <attribute name="MPN" value="RC0805FR-0710KL"/>
@@ -16474,13 +16474,13 @@ Big oval pads</description>
 <sheet>
 <plain>
 <text x="76.2" y="137.16" size="1.778" layer="97">CHARGE</text>
-<text x="118.11" y="-29.21" size="2.54" layer="97">Originally taken from Arduino Lilypad Rev 10
+<text x="118.11" y="-46.99" size="2.54" layer="97">Originally taken from Arduino Lilypad Rev 10
 Licensed under Creative Commons 
 Attribution ShareAlike (CC BY-SA)</text>
-<wire x1="-22.86" y1="99.06" x2="-22.86" y2="182.88" width="0.1524" layer="97"/>
+<wire x1="-22.86" y1="106.68" x2="-22.86" y2="182.88" width="0.1524" layer="97"/>
 <wire x1="-22.86" y1="182.88" x2="259.08" y2="182.88" width="0.1524" layer="97"/>
-<wire x1="259.08" y1="182.88" x2="259.08" y2="99.06" width="0.1524" layer="97"/>
-<wire x1="259.08" y1="99.06" x2="-22.86" y2="99.06" width="0.1524" layer="97"/>
+<wire x1="259.08" y1="182.88" x2="259.08" y2="106.68" width="0.1524" layer="97"/>
+<wire x1="259.08" y1="106.68" x2="-22.86" y2="106.68" width="0.1524" layer="97"/>
 <text x="226.06" y="-38.1" size="2.54" layer="97">M3 / #4-40 mounting holes</text>
 <wire x1="243.84" y1="13.97" x2="243.84" y2="-17.78" width="0.1524" layer="97"/>
 <wire x1="243.84" y1="-17.78" x2="289.56" y2="-17.78" width="0.1524" layer="97"/>
@@ -16495,21 +16495,40 @@ Attribution ShareAlike (CC BY-SA)</text>
 <wire x1="332.74" y1="105.41" x2="387.35" y2="105.41" width="0.1524" layer="95"/>
 <wire x1="387.35" y1="105.41" x2="387.35" y2="132.08" width="0.1524" layer="95"/>
 <wire x1="387.35" y1="132.08" x2="332.74" y2="132.08" width="0.1524" layer="95"/>
-<text x="118.11" y="-33.02" size="1.778" layer="95">Originally taken from AndrewGreenburg/Eaglecad-things repo</text>
 <wire x1="-115.57" y1="187.96" x2="-115.57" y2="-54.61" width="0.1524" layer="95"/>
 <wire x1="-115.57" y1="-54.61" x2="435.61" y2="-53.34" width="0.1524" layer="95"/>
 <wire x1="435.61" y1="-53.34" x2="435.61" y2="189.23" width="0.1524" layer="95"/>
 <wire x1="435.61" y1="189.23" x2="-115.57" y2="187.96" width="0.1524" layer="95"/>
-<text x="-25.4" y="190.5" size="1.778" layer="95">ATMEGA PROCESSOR IN LILYPAD SCHEMATIC</text>
-<text x="344.17" y="128.27" size="1.778" layer="97">(7.4V Li-Ion Battery pack)</text>
 <text x="374.65" y="121.92" size="1.778" layer="97">5V</text>
 <wire x1="292.1" y1="-48.26" x2="403.86" y2="-48.26" width="0.1524" layer="95"/>
-<wire x1="403.86" y1="-48.26" x2="403.86" y2="88.9" width="0.1524" layer="95"/>
-<wire x1="403.86" y1="88.9" x2="292.1" y2="88.9" width="0.1524" layer="95"/>
-<wire x1="292.1" y1="88.9" x2="292.1" y2="-48.26" width="0.1524" layer="95"/>
-<text x="311.15" y="88.9" size="1.778" layer="95">MOTOR ACTUATORS + DRIVERS</text>
-<text x="100.33" y="101.6" size="1.778" layer="97">USB_POWER</text>
-<text x="-12.7" y="90.17" size="1.778" layer="97" rot="MR0">(5V@2.1A)</text>
+<wire x1="403.86" y1="-48.26" x2="403.86" y2="87.63" width="0.1524" layer="95"/>
+<wire x1="403.86" y1="87.63" x2="292.1" y2="87.63" width="0.1524" layer="95"/>
+<wire x1="292.1" y1="87.63" x2="292.1" y2="-48.26" width="0.1524" layer="95"/>
+<text x="312.42" y="88.9" size="1.778" layer="95">MOTOR ACTUATORS + DRIVERS</text>
+<text x="100.33" y="110.49" size="1.778" layer="97">USB_POWER</text>
+<text x="-38.1" y="96.52" size="1.778" layer="97" rot="MR0">(5V@2.1A)</text>
+<wire x1="-31.75" y1="104.14" x2="-83.82" y2="104.14" width="0.1524" layer="97"/>
+<wire x1="-83.82" y1="104.14" x2="-83.82" y2="33.02" width="0.1524" layer="97"/>
+<wire x1="-83.82" y1="33.02" x2="-31.75" y2="33.02" width="0.1524" layer="97"/>
+<wire x1="-31.75" y1="33.02" x2="-31.75" y2="104.14" width="0.1524" layer="97"/>
+<text x="-83.82" y="105.41" size="1.778" layer="97">RASP_PI GPIO PIN HEADER EXTENDED</text>
+<text x="-83.82" y="15.24" size="1.778" layer="97">A 2x20 GPIO header be attached with female 
+connections available on the bottom layer (connects to Pi) 
+and male connections on the top layer (connects to Matrix).
+
+The Atmega will share the I2C line with the Pi &amp; Matrix
+as well as get its Power and GND from the Pi's Li-Ion power pack.</text>
+<text x="-63.5" y="101.6" size="1.778" layer="97">FROM PI'S POWER PACK</text>
+<text x="118.11" y="-35.56" size="1.778" layer="97">Arduino Lilypad Rev 10 schemtatic used was taken from 
+this repo: https://github.com/andrewgreenberg/eaglecad-things</text>
+<text x="288.29" y="119.38" size="1.778" layer="97">(+)</text>
+<text x="288.29" y="114.3" size="1.778" layer="97">(+)</text>
+<text x="288.29" y="116.84" size="1.778" layer="97">(-)</text>
+<text x="288.29" y="111.76" size="1.778" layer="97">(-)</text>
+<text x="332.74" y="133.35" size="1.778" layer="97">5V Voltage Regulator</text>
+<text x="300.99" y="-30.48" size="1.778" layer="97">4 PWM signals come in from the Atmega processor to 2 H bridges.
+Each H bridge then controls a motor, being able to turn in forward
+or backward as needed. </text>
 </plain>
 <instances>
 <instance part="U3" gate="G$1" x="90.17" y="20.32" smashed="yes">
@@ -16906,7 +16925,7 @@ Attribution ShareAlike (CC BY-SA)</text>
 <attribute name="VALUE" x="342.9" y="129.54" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="VR" gate="A1" x="355.6" y="120.65" smashed="yes">
-<attribute name="NAME" x="335.28" y="133.985" size="1.778" layer="95"/>
+<attribute name="NAME" x="354.33" y="118.745" size="1.778" layer="95"/>
 <attribute name="VALUE" x="347.98" y="123.825" size="1.778" layer="96"/>
 </instance>
 <instance part="C15" gate="G$1" x="340.36" y="116.84" smashed="yes">
@@ -16933,11 +16952,11 @@ Attribution ShareAlike (CC BY-SA)</text>
 </instance>
 <instance part="MOTOR_CONNECTOR" gate="G$1" x="414.02" y="38.1" smashed="yes">
 <attribute name="VALUE" x="410.21" y="27.94" size="1.778" layer="96"/>
-<attribute name="NAME" x="410.21" y="43.942" size="1.778" layer="95"/>
+<attribute name="NAME" x="408.94" y="45.212" size="1.778" layer="95"/>
 </instance>
-<instance part="MOTOR_BATTERY_CONNECTOR" gate="1" x="302.26" y="120.65" smashed="yes">
-<attribute name="VALUE" x="300.99" y="110.49" size="1.778" layer="96"/>
-<attribute name="NAME" x="285.75" y="127.762" size="1.778" layer="95"/>
+<instance part="MOTOR_BATTERY_CONNECTOR" gate="1" x="289.56" y="118.11" smashed="yes">
+<attribute name="VALUE" x="288.29" y="107.95" size="1.778" layer="96"/>
+<attribute name="NAME" x="274.32" y="127.762" size="1.778" layer="95"/>
 </instance>
 <instance part="GND21" gate="1" x="340.36" y="109.22" smashed="yes">
 <attribute name="VALUE" x="337.82" y="106.68" size="1.778" layer="96"/>
@@ -16951,15 +16970,15 @@ Attribution ShareAlike (CC BY-SA)</text>
 <instance part="SUPPLY5" gate="G$1" x="-1.27" y="57.15" smashed="yes">
 <attribute name="VALUE" x="-1.27" y="59.944" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="SV1" gate="G$1" x="-36.83" y="66.04" smashed="yes">
-<attribute name="VALUE" x="-40.64" y="35.56" size="1.778" layer="96"/>
-<attribute name="NAME" x="-40.64" y="92.202" size="1.778" layer="95"/>
+<instance part="SV1" gate="G$1" x="-60.96" y="63.5" smashed="yes">
+<attribute name="VALUE" x="-64.77" y="33.02" size="1.778" layer="96"/>
+<attribute name="NAME" x="-64.77" y="89.662" size="1.778" layer="95"/>
 </instance>
-<instance part="GND26" gate="1" x="-49.53" y="78.74" smashed="yes" rot="R270"/>
-<instance part="SUPPLY4" gate="G$1" x="-11.43" y="88.9" smashed="yes">
-<attribute name="VALUE" x="-11.43" y="91.694" size="1.778" layer="96" rot="MR0" align="bottom-center"/>
+<instance part="GND26" gate="1" x="-73.66" y="71.12" smashed="yes"/>
+<instance part="SUPPLY4" gate="G$1" x="-36.83" y="96.52" smashed="yes">
+<attribute name="VALUE" x="-36.83" y="99.314" size="1.778" layer="96" rot="MR0" align="bottom-center"/>
 </instance>
-<instance part="U$1" gate="G$1" x="349.25" y="63.5" smashed="yes">
+<instance part="LEFT_H_BRIDGE" gate="G$1" x="349.25" y="63.5" smashed="yes">
 <attribute name="NAME" x="337.058" y="71.882" size="1.27" layer="95"/>
 <attribute name="VALUE" x="336.55" y="55.88" size="1.27" layer="95"/>
 </instance>
@@ -17022,7 +17041,7 @@ Attribution ShareAlike (CC BY-SA)</text>
 <attribute name="MPN" x="314.96" y="60.96" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="DESC" x="314.96" y="60.96" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
-<instance part="U$2" gate="G$1" x="349.25" y="10.16" smashed="yes">
+<instance part="RIGHT_H_BRIDGE" gate="G$1" x="349.25" y="10.16" smashed="yes">
 <attribute name="NAME" x="337.058" y="18.542" size="1.27" layer="95"/>
 <attribute name="VALUE" x="336.55" y="2.54" size="1.27" layer="95"/>
 </instance>
@@ -17165,12 +17184,12 @@ Attribution ShareAlike (CC BY-SA)</text>
 <attribute name="MPN" x="406.4" y="54.61" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="DESC" x="406.4" y="54.61" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="R37" gate="G$1" x="335.28" y="123.19" smashed="yes" rot="R180">
-<attribute name="NAME" x="339.09" y="121.6914" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="336.55" y="126.492" size="1.778" layer="96" rot="R180"/>
-<attribute name="MFR" x="335.28" y="123.19" size="1.778" layer="96" rot="R180" display="off"/>
-<attribute name="MPN" x="335.28" y="123.19" size="1.778" layer="96" rot="R180" display="off"/>
-<attribute name="DESC" x="335.28" y="123.19" size="1.778" layer="96" rot="R180" display="off"/>
+<instance part="R37" gate="G$1" x="326.39" y="123.19" smashed="yes" rot="R180">
+<attribute name="NAME" x="330.2" y="121.6914" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="327.66" y="126.492" size="1.778" layer="96" rot="R180"/>
+<attribute name="MFR" x="326.39" y="123.19" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MPN" x="326.39" y="123.19" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="DESC" x="326.39" y="123.19" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="R32" gate="G$1" x="36.83" y="53.34" smashed="yes" rot="R180">
 <attribute name="NAME" x="39.37" y="51.8414" size="1.778" layer="95" rot="R180"/>
@@ -17480,9 +17499,10 @@ Attribution ShareAlike (CC BY-SA)</text>
 <pinref part="GND21" gate="1" pin="GND"/>
 <pinref part="C15" gate="G$1" pin="2"/>
 <pinref part="MOTOR_BATTERY_CONNECTOR" gate="1" pin="1"/>
-<wire x1="309.88" y1="115.57" x2="309.88" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="309.88" y1="111.76" x2="340.36" y2="111.76" width="0.1524" layer="91"/>
 <junction x="340.36" y="111.76"/>
+<wire x1="297.18" y1="111.76" x2="340.36" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="297.18" y1="113.03" x2="297.18" y2="111.76" width="0.1524" layer="91"/>
+<label x="303.53" y="111.76" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="VR" gate="A1" pin="GND"/>
@@ -17494,10 +17514,11 @@ Attribution ShareAlike (CC BY-SA)</text>
 <pinref part="C20" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<wire x1="-44.45" y1="78.74" x2="-46.99" y2="78.74" width="0.1524" layer="91"/>
-<label x="-50.8" y="80.01" size="1.778" layer="95" rot="R180"/>
+<label x="-68.58" y="78.74" size="1.778" layer="95" rot="R180"/>
 <pinref part="GND26" gate="1" pin="GND"/>
 <pinref part="SV1" gate="G$1" pin="31"/>
+<wire x1="-68.58" y1="76.2" x2="-73.66" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="-73.66" y1="76.2" x2="-73.66" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="T2" gate="G$1" pin="E"/>
@@ -17510,7 +17531,7 @@ Attribution ShareAlike (CC BY-SA)</text>
 <wire x1="354.33" y1="43.18" x2="358.14" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="N1S/N2S"/>
+<pinref part="LEFT_H_BRIDGE" gate="G$1" pin="N1S/N2S"/>
 <wire x1="331.47" y1="63.5" x2="307.34" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="GND28" gate="1" pin="GND"/>
 <wire x1="307.34" y1="63.5" x2="307.34" y2="60.96" width="0.1524" layer="91"/>
@@ -17522,6 +17543,7 @@ Attribution ShareAlike (CC BY-SA)</text>
 <wire x1="309.88" y1="68.58" x2="307.34" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="307.34" y1="68.58" x2="307.34" y2="63.5" width="0.1524" layer="91"/>
 <junction x="307.34" y="63.5"/>
+<label x="323.85" y="63.5" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="T4" gate="G$1" pin="E"/>
@@ -17534,7 +17556,7 @@ Attribution ShareAlike (CC BY-SA)</text>
 <wire x1="354.33" y1="-10.16" x2="358.14" y2="-10.16" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="N1S/N2S"/>
+<pinref part="RIGHT_H_BRIDGE" gate="G$1" pin="N1S/N2S"/>
 <wire x1="331.47" y1="10.16" x2="307.34" y2="10.16" width="0.1524" layer="91"/>
 <pinref part="GND31" gate="1" pin="GND"/>
 <wire x1="307.34" y1="10.16" x2="307.34" y2="7.62" width="0.1524" layer="91"/>
@@ -17546,6 +17568,7 @@ Attribution ShareAlike (CC BY-SA)</text>
 <wire x1="309.88" y1="15.24" x2="307.34" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="307.34" y1="15.24" x2="307.34" y2="10.16" width="0.1524" layer="91"/>
 <junction x="307.34" y="10.16"/>
+<label x="323.85" y="10.16" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -17593,10 +17616,6 @@ Attribution ShareAlike (CC BY-SA)</text>
 <label x="74.93" y="62.23" size="1.778" layer="95"/>
 </segment>
 <segment>
-<label x="127" y="30.48" size="1.778" layer="95"/>
-<label x="127" y="30.48" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="R3" gate="G$1" pin="1"/>
 <wire x1="69.85" y1="64.77" x2="69.85" y2="62.23" width="0.1524" layer="91"/>
 <junction x="69.85" y="62.23"/>
@@ -17640,6 +17659,12 @@ Attribution ShareAlike (CC BY-SA)</text>
 <pinref part="D4" gate="G$1" pin="A"/>
 <wire x1="53.34" y1="157.48" x2="66.04" y2="157.48" width="0.1524" layer="91"/>
 <pinref part="R39" gate="G$1" pin="1"/>
+</segment>
+<segment>
+<pinref part="J3" gate="G$1" pin="VBUS"/>
+<wire x1="5.08" y1="157.48" x2="43.18" y2="157.48" width="0.1524" layer="91"/>
+<pinref part="R39" gate="G$1" pin="2"/>
+<label x="26.67" y="158.75" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$19" class="0">
@@ -17861,7 +17886,7 @@ Attribution ShareAlike (CC BY-SA)</text>
 <pinref part="R19" gate="G$1" pin="1"/>
 <junction x="381" y="21.59"/>
 <pinref part="R20" gate="G$1" pin="2"/>
-<pinref part="U$2" gate="G$1" pin="P1S/P2S"/>
+<pinref part="RIGHT_H_BRIDGE" gate="G$1" pin="P1S/P2S"/>
 <wire x1="367.03" y1="12.7" x2="373.38" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="373.38" y1="12.7" x2="373.38" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="373.38" y1="15.24" x2="381" y2="15.24" width="0.1524" layer="91"/>
@@ -17871,9 +17896,10 @@ Attribution ShareAlike (CC BY-SA)</text>
 <net name="7.4V_FROM_BATT" class="0">
 <segment>
 <pinref part="MOTOR_BATTERY_CONNECTOR" gate="1" pin="4"/>
-<wire x1="309.88" y1="123.19" x2="330.2" y2="123.19" width="0.1524" layer="91"/>
-<label x="309.88" y="123.19" size="1.778" layer="95"/>
+<label x="303.53" y="124.46" size="1.778" layer="95"/>
 <pinref part="R37" gate="G$1" pin="2"/>
+<wire x1="297.18" y1="120.65" x2="297.18" y2="123.19" width="0.1524" layer="91"/>
+<wire x1="297.18" y1="123.19" x2="321.31" y2="123.19" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="ACUATOR_POWER" class="0">
@@ -17885,7 +17911,7 @@ Attribution ShareAlike (CC BY-SA)</text>
 <junction x="381" y="74.93"/>
 <pinref part="R14" gate="G$1" pin="2"/>
 <junction x="381" y="49.53"/>
-<pinref part="U$1" gate="G$1" pin="P1S/P2S"/>
+<pinref part="LEFT_H_BRIDGE" gate="G$1" pin="P1S/P2S"/>
 <wire x1="367.03" y1="66.04" x2="373.38" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="373.38" y1="66.04" x2="373.38" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="373.38" y1="68.58" x2="381" y2="68.58" width="0.1524" layer="91"/>
@@ -17901,16 +17927,17 @@ Attribution ShareAlike (CC BY-SA)</text>
 <pinref part="R22" gate="G$1" pin="2"/>
 <wire x1="341.63" y1="-5.08" x2="321.31" y2="-5.08" width="0.1524" layer="91"/>
 <wire x1="321.31" y1="-5.08" x2="294.64" y2="-5.08" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="N1G"/>
+<pinref part="RIGHT_H_BRIDGE" gate="G$1" pin="N1G"/>
 <pinref part="R23" gate="G$1" pin="1"/>
 <wire x1="331.47" y1="15.24" x2="321.31" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="321.31" y1="15.24" x2="320.04" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="321.31" y1="15.24" x2="321.31" y2="-5.08" width="0.1524" layer="91"/>
 <junction x="321.31" y="15.24"/>
 <junction x="321.31" y="-5.08"/>
-<label x="308.61" y="-8.89" size="1.778" layer="95"/>
+<label x="298.45" y="-3.81" size="1.778" layer="95"/>
 <wire x1="241.3" y1="30.48" x2="294.64" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="R26" gate="G$1" pin="1"/>
+<label x="323.85" y="15.24" size="1.778" layer="95"/>
 </segment>
 <segment>
 <label x="110.49" y="17.78" size="1.778" layer="97"/>
@@ -17938,7 +17965,7 @@ Attribution ShareAlike (CC BY-SA)</text>
 </segment>
 <segment>
 <pinref part="R24" gate="G$1" pin="1"/>
-<pinref part="U$2" gate="G$1" pin="N2G"/>
+<pinref part="RIGHT_H_BRIDGE" gate="G$1" pin="N2G"/>
 <wire x1="331.47" y1="7.62" x2="323.85" y2="7.62" width="0.1524" layer="91"/>
 <wire x1="323.85" y1="7.62" x2="320.04" y2="7.62" width="0.1524" layer="91"/>
 <junction x="323.85" y="7.62"/>
@@ -17949,8 +17976,9 @@ Attribution ShareAlike (CC BY-SA)</text>
 <wire x1="323.85" y1="30.48" x2="297.18" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="297.18" y1="33.02" x2="297.18" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="297.18" y1="33.02" x2="252.73" y2="33.02" width="0.1524" layer="91"/>
-<label x="308.61" y="31.75" size="1.778" layer="95"/>
+<label x="299.72" y="31.75" size="1.778" layer="95"/>
 <pinref part="R25" gate="G$1" pin="1"/>
+<label x="323.85" y="7.62" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$23" class="0">
@@ -18029,19 +18057,20 @@ Attribution ShareAlike (CC BY-SA)</text>
 <junction x="421.64" y="33.02"/>
 <wire x1="406.4" y1="13.97" x2="406.4" y2="33.02" width="0.1524" layer="91"/>
 <pinref part="R34" gate="G$1" pin="2"/>
-<label x="406.4" y="33.02" size="1.778" layer="95"/>
+<label x="422.91" y="33.02" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="N1D/P1D"/>
+<pinref part="RIGHT_H_BRIDGE" gate="G$1" pin="N1D/P1D"/>
 <wire x1="331.47" y1="12.7" x2="327.66" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="327.66" y1="12.7" x2="327.66" y2="1.27" width="0.1524" layer="91"/>
 <wire x1="327.66" y1="1.27" x2="400.05" y2="1.27" width="0.1524" layer="91"/>
+<label x="327.66" y="-1.27" size="1.778" layer="95"/>
 </segment>
 <segment>
 <wire x1="406.4" y1="1.27" x2="406.4" y2="3.81" width="0.1524" layer="91"/>
 <wire x1="387.35" y1="1.27" x2="406.4" y2="1.27" width="0.1524" layer="91"/>
 <pinref part="R34" gate="G$1" pin="1"/>
-<label x="402.59" y="0" size="1.778" layer="95" rot="R180"/>
+<label x="401.32" y="3.81" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="PWM_1" class="0">
@@ -18056,7 +18085,7 @@ Attribution ShareAlike (CC BY-SA)</text>
 </segment>
 <segment>
 <pinref part="R18" gate="G$1" pin="1"/>
-<pinref part="U$1" gate="G$1" pin="N2G"/>
+<pinref part="LEFT_H_BRIDGE" gate="G$1" pin="N2G"/>
 <wire x1="331.47" y1="60.96" x2="323.85" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="323.85" y1="60.96" x2="320.04" y2="60.96" width="0.1524" layer="91"/>
 <junction x="323.85" y="60.96"/>
@@ -18067,8 +18096,9 @@ Attribution ShareAlike (CC BY-SA)</text>
 <wire x1="323.85" y1="83.82" x2="297.18" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="297.18" y1="83.82" x2="297.18" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="297.18" y1="63.5" x2="275.59" y2="63.5" width="0.1524" layer="91"/>
-<label x="313.69" y="85.09" size="1.778" layer="95"/>
+<label x="298.45" y="81.28" size="1.778" layer="95"/>
 <pinref part="R28" gate="G$1" pin="1"/>
+<label x="323.85" y="60.96" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PWM_2" class="0">
@@ -18085,7 +18115,7 @@ Attribution ShareAlike (CC BY-SA)</text>
 <pinref part="R16" gate="G$1" pin="2"/>
 <wire x1="341.63" y1="48.26" x2="321.31" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="R17" gate="G$1" pin="1"/>
-<pinref part="U$1" gate="G$1" pin="N1G"/>
+<pinref part="LEFT_H_BRIDGE" gate="G$1" pin="N1G"/>
 <wire x1="331.47" y1="68.58" x2="321.31" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="321.31" y1="68.58" x2="320.04" y2="68.58" width="0.1524" layer="91"/>
 <junction x="321.31" y="68.58"/>
@@ -18094,8 +18124,9 @@ Attribution ShareAlike (CC BY-SA)</text>
 <wire x1="321.31" y1="48.26" x2="297.18" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="297.18" y1="48.26" x2="297.18" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="297.18" y1="60.96" x2="264.16" y2="60.96" width="0.1524" layer="91"/>
-<label x="314.96" y="44.45" size="1.778" layer="95"/>
+<label x="298.45" y="49.53" size="1.778" layer="95"/>
 <pinref part="R27" gate="G$1" pin="1"/>
+<label x="323.85" y="68.58" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SDA" class="0">
@@ -18103,20 +18134,18 @@ Attribution ShareAlike (CC BY-SA)</text>
 <label x="111.76" y="27.94" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="129.54" y1="74.93" x2="129.54" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="R9" gate="G$1" pin="1"/>
 <wire x1="152.4" y1="74.93" x2="129.54" y2="74.93" width="0.1524" layer="91"/>
 <junction x="129.54" y="74.93"/>
 <wire x1="129.54" y1="54.61" x2="129.54" y2="74.93" width="0.1524" layer="91"/>
 <pinref part="R30" gate="G$1" pin="2"/>
+<wire x1="129.54" y1="74.93" x2="111.76" y2="74.93" width="0.1524" layer="91"/>
+<label x="111.76" y="76.2" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="SV1" gate="G$1" pin="37"/>
-<wire x1="-44.45" y1="86.36" x2="-46.99" y2="86.36" width="0.1524" layer="91"/>
-<label x="-48.26" y="86.36" size="1.778" layer="95"/>
-</segment>
-<segment>
-<label x="129.54" y="57.15" size="1.778" layer="95" rot="R90"/>
+<label x="-76.2" y="83.82" size="1.778" layer="95"/>
+<wire x1="-68.58" y1="83.82" x2="-76.2" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="129.54" y1="27.94" x2="129.54" y2="44.45" width="0.1524" layer="91"/>
@@ -18127,8 +18156,8 @@ Attribution ShareAlike (CC BY-SA)</text>
 </net>
 <net name="LEFT_MOTOR1" class="0">
 <segment>
-<label x="384.81" y="64.77" size="1.778" layer="95"/>
-<pinref part="U$1" gate="G$1" pin="N2D/P2D"/>
+<label x="383.54" y="64.77" size="1.778" layer="95"/>
+<pinref part="LEFT_H_BRIDGE" gate="G$1" pin="N2D/P2D"/>
 <wire x1="367.03" y1="63.5" x2="406.4" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="406.4" y1="63.5" x2="406.4" y2="59.69" width="0.1524" layer="91"/>
 <pinref part="R36" gate="G$1" pin="2"/>
@@ -18142,14 +18171,14 @@ Attribution ShareAlike (CC BY-SA)</text>
 <junction x="406.4" y="40.64"/>
 <wire x1="406.4" y1="49.53" x2="406.4" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="R36" gate="G$1" pin="1"/>
-<label x="406.4" y="40.64" size="1.778" layer="95"/>
+<label x="422.91" y="40.64" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="RIGHT_MOTOR1" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="N2D/P2D"/>
+<pinref part="RIGHT_H_BRIDGE" gate="G$1" pin="N2D/P2D"/>
 <wire x1="367.03" y1="10.16" x2="402.59" y2="10.16" width="0.1524" layer="91"/>
-<label x="382.27" y="7.62" size="1.778" layer="95"/>
+<label x="382.27" y="11.43" size="1.778" layer="95"/>
 <wire x1="402.59" y1="17.78" x2="402.59" y2="10.16" width="0.1524" layer="91"/>
 <pinref part="R33" gate="G$1" pin="1"/>
 </segment>
@@ -18163,26 +18192,23 @@ Attribution ShareAlike (CC BY-SA)</text>
 <wire x1="406.4" y1="35.56" x2="402.59" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="402.59" y1="35.56" x2="402.59" y2="27.94" width="0.1524" layer="91"/>
 <pinref part="R33" gate="G$1" pin="2"/>
-<label x="406.4" y="35.56" size="1.778" layer="95"/>
+<label x="422.91" y="35.56" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SCLK" class="0">
 <segment>
-<wire x1="132.08" y1="81.28" x2="132.08" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="R7" gate="G$1" pin="1"/>
 <wire x1="132.08" y1="81.28" x2="144.78" y2="81.28" width="0.1524" layer="91"/>
 <junction x="132.08" y="81.28"/>
 <wire x1="132.08" y1="43.18" x2="132.08" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="R29" gate="G$1" pin="2"/>
-<label x="132.08" y="64.77" size="1.778" layer="95" rot="R90"/>
+<wire x1="132.08" y1="81.28" x2="111.76" y2="81.28" width="0.1524" layer="91"/>
+<label x="111.76" y="82.55" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="SV1" gate="G$1" pin="35"/>
-<wire x1="-44.45" y1="83.82" x2="-46.99" y2="83.82" width="0.1524" layer="91"/>
-<label x="-49.53" y="83.82" size="1.778" layer="95"/>
-</segment>
-<segment>
-<label x="132.08" y="64.77" size="1.778" layer="95" rot="R90"/>
+<label x="-76.2" y="81.28" size="1.778" layer="95"/>
+<wire x1="-68.58" y1="81.28" x2="-76.2" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="132.08" y1="25.4" x2="132.08" y2="33.02" width="0.1524" layer="91"/>
@@ -18228,17 +18254,16 @@ Attribution ShareAlike (CC BY-SA)</text>
 <pinref part="R32" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<label x="-11.43" y="86.36" size="1.778" layer="95" rot="MR0"/>
+<label x="-38.1" y="87.63" size="1.778" layer="95" rot="MR0"/>
 <pinref part="SUPPLY4" gate="G$1" pin="5V"/>
-<wire x1="-11.43" y1="88.9" x2="-29.21" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="-29.21" y1="88.9" x2="-15.24" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="SV1" gate="G$1" pin="40"/>
-<junction x="-29.21" y="88.9"/>
+<wire x1="-53.34" y1="86.36" x2="-36.83" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="-36.83" y1="86.36" x2="-36.83" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R7" gate="G$1" pin="2"/>
 <wire x1="144.78" y1="91.44" x2="144.78" y2="96.52" width="0.1524" layer="91"/>
-<label x="148.59" y="92.71" size="1.778" layer="95"/>
+<label x="154.94" y="91.44" size="1.778" layer="95"/>
 <pinref part="R9" gate="G$1" pin="2"/>
 <wire x1="152.4" y1="85.09" x2="152.4" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="96.52" x2="148.59" y2="96.52" width="0.1524" layer="91"/>
@@ -18251,12 +18276,12 @@ Attribution ShareAlike (CC BY-SA)</text>
 <segment>
 <pinref part="MOTOR_BATTERY_CONNECTOR" gate="1" pin="3"/>
 <pinref part="MOTOR_BATTERY_CONNECTOR" gate="1" pin="2"/>
-<wire x1="309.88" y1="120.65" x2="309.88" y2="118.11" width="0.1524" layer="91"/>
+<wire x1="297.18" y1="118.11" x2="297.18" y2="115.57" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$9" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="P2G"/>
+<pinref part="LEFT_H_BRIDGE" gate="G$1" pin="P2G"/>
 <wire x1="367.03" y1="60.96" x2="368.3" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="368.3" y1="60.96" x2="368.3" y2="49.53" width="0.1524" layer="91"/>
 <pinref part="R14" gate="G$1" pin="1"/>
@@ -18268,7 +18293,7 @@ Attribution ShareAlike (CC BY-SA)</text>
 </net>
 <net name="N$10" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="P1G"/>
+<pinref part="LEFT_H_BRIDGE" gate="G$1" pin="P1G"/>
 <wire x1="367.03" y1="68.58" x2="368.3" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="368.3" y1="68.58" x2="368.3" y2="74.93" width="0.1524" layer="91"/>
 <pinref part="R13" gate="G$1" pin="2"/>
@@ -18294,13 +18319,14 @@ Attribution ShareAlike (CC BY-SA)</text>
 </net>
 <net name="LEFT_MOTOR2" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="N1D/P1D"/>
+<pinref part="LEFT_H_BRIDGE" gate="G$1" pin="N1D/P1D"/>
 <wire x1="331.47" y1="66.04" x2="327.66" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="327.66" y1="66.04" x2="327.66" y2="54.61" width="0.1524" layer="91"/>
 <wire x1="327.66" y1="54.61" x2="402.59" y2="54.61" width="0.1524" layer="91"/>
 <label x="383.54" y="55.88" size="1.778" layer="95"/>
 <wire x1="402.59" y1="54.61" x2="402.59" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="R35" gate="G$1" pin="2"/>
+<label x="327.66" y="52.07" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="MOTOR_CONNECTOR" gate="G$1" pin="5"/>
@@ -18312,12 +18338,12 @@ Attribution ShareAlike (CC BY-SA)</text>
 <wire x1="402.59" y1="38.1" x2="406.4" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="402.59" y1="43.18" x2="402.59" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="R35" gate="G$1" pin="1"/>
-<label x="406.4" y="38.1" size="1.778" layer="95"/>
+<label x="422.91" y="38.1" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$17" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="P2G"/>
+<pinref part="RIGHT_H_BRIDGE" gate="G$1" pin="P2G"/>
 <wire x1="367.03" y1="7.62" x2="368.3" y2="7.62" width="0.1524" layer="91"/>
 <wire x1="368.3" y1="7.62" x2="368.3" y2="-3.81" width="0.1524" layer="91"/>
 <pinref part="R20" gate="G$1" pin="1"/>
@@ -18329,7 +18355,7 @@ Attribution ShareAlike (CC BY-SA)</text>
 </net>
 <net name="N$18" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="P1G"/>
+<pinref part="RIGHT_H_BRIDGE" gate="G$1" pin="P1G"/>
 <wire x1="367.03" y1="15.24" x2="368.3" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="368.3" y1="15.24" x2="368.3" y2="21.59" width="0.1524" layer="91"/>
 <pinref part="R19" gate="G$1" pin="2"/>
@@ -18357,20 +18383,14 @@ Attribution ShareAlike (CC BY-SA)</text>
 <segment>
 <pinref part="C15" gate="G$1" pin="1"/>
 <pinref part="P+4" gate="1" pin="+5V"/>
-<wire x1="340.36" y1="124.46" x2="340.36" y2="123.19" width="0.1524" layer="91"/>
-<wire x1="340.36" y1="123.19" x2="340.36" y2="119.38" width="0.1524" layer="91"/>
 <junction x="340.36" y="123.19"/>
 <pinref part="R37" gate="G$1" pin="1"/>
 <pinref part="VR" gate="A1" pin="VI"/>
+<wire x1="331.47" y1="123.19" x2="340.36" y2="123.19" width="0.1524" layer="91"/>
 <wire x1="340.36" y1="123.19" x2="345.44" y2="123.19" width="0.1524" layer="91"/>
 <wire x1="345.44" y1="123.19" x2="345.44" y2="120.65" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$159" class="0">
-<segment>
-<pinref part="J3" gate="G$1" pin="VBUS"/>
-<wire x1="5.08" y1="157.48" x2="43.18" y2="157.48" width="0.1524" layer="91"/>
-<pinref part="R39" gate="G$1" pin="2"/>
+<wire x1="340.36" y1="124.46" x2="340.36" y2="123.19" width="0.1524" layer="91"/>
+<wire x1="340.36" y1="123.19" x2="340.36" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VBAT" class="0">
