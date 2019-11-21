@@ -16911,13 +16911,13 @@ Grace Semerjian</text>
 <net name="RIGHT_MOTOR1_0" class="0">
 <segment>
 <pinref part="R33" gate="G$1" pin="2"/>
-<pinref part="MOTOR_CONNECTOR" gate="G$1" pin="4"/>
-<wire x1="508" y1="190.5" x2="508" y2="182.88" width="0.1524" layer="91"/>
-<wire x1="511.81" y1="190.5" x2="508" y2="190.5" width="0.1524" layer="91"/>
+<pinref part="MOTOR_CONNECTOR" gate="G$1" pin="2"/>
+<wire x1="508" y1="187.96" x2="508" y2="182.88" width="0.1524" layer="91"/>
+<wire x1="511.81" y1="187.96" x2="508" y2="187.96" width="0.1524" layer="91"/>
 <label x="528.32" y="187.96" size="1.778" layer="95"/>
-<pinref part="MOTOR_CONNECTOR" gate="G$1" pin="3"/>
-<wire x1="511.81" y1="190.5" x2="527.05" y2="190.5" width="0.1524" layer="91"/>
-<junction x="511.81" y="190.5"/>
+<pinref part="MOTOR_CONNECTOR" gate="G$1" pin="1"/>
+<wire x1="511.81" y1="187.96" x2="527.05" y2="187.96" width="0.1524" layer="91"/>
+<junction x="511.81" y="187.96"/>
 </segment>
 </net>
 <net name="PWM_3_0" class="0">
@@ -17087,12 +17087,16 @@ Grace Semerjian</text>
 </net>
 <net name="RIGHT_MOTOR2_0" class="0">
 <segment>
-<pinref part="MOTOR_CONNECTOR" gate="G$1" pin="2"/>
+<pinref part="MOTOR_CONNECTOR" gate="G$1" pin="4"/>
 <label x="528.32" y="190.5" size="1.778" layer="95"/>
-<pinref part="MOTOR_CONNECTOR" gate="G$1" pin="1"/>
-<wire x1="511.81" y1="187.96" x2="527.05" y2="187.96" width="0.1524" layer="91"/>
+<pinref part="MOTOR_CONNECTOR" gate="G$1" pin="3"/>
+<wire x1="511.81" y1="190.5" x2="527.05" y2="190.5" width="0.1524" layer="91"/>
+<wire x1="511.81" y1="190.5" x2="510.54" y2="190.5" width="0.1524" layer="91"/>
+<junction x="511.81" y="190.5"/>
+<wire x1="510.54" y1="190.5" x2="510.54" y2="185.42" width="0.1524" layer="91"/>
+<wire x1="510.54" y1="185.42" x2="511.81" y2="185.42" width="0.1524" layer="91"/>
 <pinref part="R34" gate="G$1" pin="2"/>
-<wire x1="511.81" y1="168.91" x2="511.81" y2="187.96" width="0.1524" layer="91"/>
+<wire x1="511.81" y1="185.42" x2="511.81" y2="168.91" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VBUS_0" class="0">

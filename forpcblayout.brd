@@ -3617,10 +3617,10 @@ Please make sure your boards conform to these design rules.</description>
 <signal name="RIGHT_MOTOR1_0">
 <contactref element="R33" pad="2"/>
 <wire x1="106.07" y1="25.5" x2="112.243209375" y2="25.5" width="1" layer="1"/>
-<wire x1="112.243209375" y1="25.5" x2="112.254678125" y2="28.02853125" width="2" layer="1"/>
-<wire x1="112.254678125" y1="28.02853125" x2="114.794678125" y2="28.02853125" width="1" layer="1"/>
-<contactref element="MOTOR_CONNECTOR" pad="4"/>
-<contactref element="MOTOR_CONNECTOR" pad="3"/>
+<wire x1="112.243209375" y1="25.5" x2="112.254678125" y2="25.48853125" width="2" layer="1"/>
+<wire x1="112.254678125" y1="25.48853125" x2="114.794678125" y2="25.48853125" width="1" layer="1"/>
+<contactref element="MOTOR_CONNECTOR" pad="2"/>
+<contactref element="MOTOR_CONNECTOR" pad="1"/>
 </signal>
 <signal name="PWM_3_0">
 <contactref element="R21" pad="2"/>
@@ -3800,12 +3800,14 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="111" y1="19.5" x2="105.985" y2="14.485" width="1" layer="1"/>
 </signal>
 <signal name="RIGHT_MOTOR2_0">
-<wire x1="112.226146875" y1="28" x2="112.254678125" y2="25.48853125" width="2" layer="1"/>
-<wire x1="112.254678125" y1="25.48853125" x2="114.794678125" y2="25.48853125" width="1" layer="1"/>
-<contactref element="MOTOR_CONNECTOR" pad="2"/>
-<contactref element="MOTOR_CONNECTOR" pad="1"/>
+<wire x1="112.226146875" y1="28" x2="112.254678125" y2="28.02853125" width="2" layer="1"/>
+<wire x1="114.694678125" y1="27.92853125" x2="112.354678125" y2="27.92853125" width="1" layer="1"/>
+<wire x1="112.254678125" y1="28.02853125" x2="112.354678125" y2="27.92853125" width="1" layer="1"/>
+<wire x1="114.694678125" y1="27.92853125" x2="114.794678125" y2="28.02853125" width="1" layer="1"/>
+<contactref element="MOTOR_CONNECTOR" pad="4"/>
+<contactref element="MOTOR_CONNECTOR" pad="3"/>
 <contactref element="R34" pad="2"/>
-<wire x1="106.07" y1="28" x2="112.226146875" y2="28" width="0" layer="19" extent="1-1"/>
+<wire x1="106.07" y1="28" x2="112.226146875" y2="28" width="1" layer="1"/>
 </signal>
 <signal name="VBUS_0">
 <contactref element="C19" pad="1"/>
