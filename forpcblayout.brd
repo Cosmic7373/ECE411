@@ -178,7 +178,7 @@
 <text x="40.9" y="56.8" size="1.778" layer="21">FearBot Control Board
 ECE 411 Team 13
 Version 2.5</text>
-<text x="26.9" y="4.9" size="1.778" layer="22" rot="MR0">DRAMATHICC</text>
+<text x="26.1" y="4.6" size="1.778" layer="22" rot="MR0">DRAMATHICC</text>
 </plain>
 <libraries>
 <library name="rcl" urn="urn:adsk.eagle:library:334">
