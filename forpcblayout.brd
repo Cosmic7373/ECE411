@@ -10,19 +10,19 @@
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="no" active="yes"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="no" active="yes"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="no" active="yes"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="no" active="yes"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="no" active="yes"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="no" active="yes"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="no" active="yes"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="no" active="yes"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="no" active="yes"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="no" active="yes"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="no" active="yes"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="no" active="yes"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="yes"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="yes"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="yes"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="yes"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="yes"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="yes"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="yes"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="yes"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="yes"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="yes"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="yes"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
@@ -165,10 +165,10 @@
 </layers>
 <board>
 <plain>
-<wire x1="9.3" y1="-0.2" x2="119.7" y2="-0.25" width="0" layer="20"/>
-<wire x1="119.7" y1="-0.25" x2="119.513971875" y2="66.55493125" width="0" layer="20"/>
-<wire x1="119.513971875" y1="66.55493125" x2="9.313971875" y2="66.40493125" width="0" layer="20"/>
-<wire x1="9.313971875" y1="66.40493125" x2="9.3" y2="-0.2" width="0" layer="20"/>
+<wire x1="9.4" y1="1.8" x2="119.7" y2="1.75" width="0" layer="20"/>
+<wire x1="119.7" y1="1.75" x2="119.313971875" y2="65.45493125" width="0" layer="20"/>
+<wire x1="119.313971875" y1="65.45493125" x2="9.213971875" y2="65.30493125" width="0" layer="20"/>
+<wire x1="9.213971875" y1="65.30493125" x2="9.4" y2="1.8" width="0" layer="20"/>
 <dimension x1="0" y1="0" x2="56" y2="0" x3="28" y3="-8.8" textsize="1.778" layer="51" dtype="horizontal"/>
 <dimension x1="79.13843125" y1="62.5861125" x2="103.25" y2="4.6" x3="115" y3="33.59305625" textsize="1.778" layer="51" dtype="vertical"/>
 <dimension x1="109.2" y1="4.6" x2="73.35" y2="15.8" x3="91.275" y3="-7" textsize="1.778" layer="51" dtype="horizontal"/>
@@ -2226,18 +2226,20 @@ grid 5.08 mm</description>
 <class number="0" name="default" width="0" drill="0">
 </class>
 </classes>
-<designrules name="oshpark-2layer">
-<description language="en">&lt;b&gt;OSH Park Design Rules&lt;/b&gt;
+<designrules name="LaenPCBOrder *">
+<description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
 &lt;p&gt;
-Please make sure your boards conform to these design rules.
-&lt;/p&gt;
+Die Standard-Design-Rules sind so gewählt, dass sie für 
+die meisten Anwendungen passen. Sollte ihre Platine 
+besondere Anforderungen haben, treffen Sie die erforderlichen
+Einstellungen hier und speichern die Design Rules unter 
+einem neuen Namen ab.</description>
+<description language="en">&lt;b&gt;Laen's PCB Order Design Rules&lt;/b&gt;
 &lt;p&gt;
-Note, that not all DRC settings must be set by the manufacturer. Several can be adjusted for the design, including those listed on our docs page here. 
-&lt;a href=&quot;http://docs.oshpark.com/design-tools/eagle/design-rules-files/&quot;&gt;Adjustable Settings&lt;/a&gt;
-&lt;/p&gt;</description>
+Please make sure your boards conform to these design rules.</description>
 <param name="layerSetup" value="(1*16)"/>
-<param name="mtCopper" value="0.035559375mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.035559375mm"/>
-<param name="mtIsolate" value="1.6mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm"/>
+<param name="mtCopper" value="0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm"/>
+<param name="mtIsolate" value="1.5011mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm"/>
 <param name="mdWireWire" value="6mil"/>
 <param name="mdWirePad" value="6mil"/>
 <param name="mdWireVia" value="6mil"/>
@@ -2253,8 +2255,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <param name="mdDrill" value="6mil"/>
 <param name="mdSmdStop" value="0mil"/>
 <param name="msWidth" value="6mil"/>
-<param name="msDrill" value="10mil"/>
-<param name="msMicroVia" value="10mil"/>
+<param name="msDrill" value="13mil"/>
+<param name="msMicroVia" value="13mil"/>
 <param name="msBlindViaRatio" value="0.5"/>
 <param name="rvPadTop" value="0.25"/>
 <param name="rvPadInner" value="0.25"/>
@@ -2263,19 +2265,19 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <param name="rvViaInner" value="0.25"/>
 <param name="rvMicroViaOuter" value="0.25"/>
 <param name="rvMicroViaInner" value="0.25"/>
-<param name="rlMinPadTop" value="5mil"/>
+<param name="rlMinPadTop" value="7mil"/>
 <param name="rlMaxPadTop" value="20mil"/>
-<param name="rlMinPadInner" value="5mil"/>
+<param name="rlMinPadInner" value="7mil"/>
 <param name="rlMaxPadInner" value="20mil"/>
-<param name="rlMinPadBottom" value="5mil"/>
+<param name="rlMinPadBottom" value="7mil"/>
 <param name="rlMaxPadBottom" value="20mil"/>
-<param name="rlMinViaOuter" value="5mil"/>
+<param name="rlMinViaOuter" value="7mil"/>
 <param name="rlMaxViaOuter" value="20mil"/>
-<param name="rlMinViaInner" value="5mil"/>
+<param name="rlMinViaInner" value="7mil"/>
 <param name="rlMaxViaInner" value="20mil"/>
-<param name="rlMinMicroViaOuter" value="5mil"/>
+<param name="rlMinMicroViaOuter" value="4mil"/>
 <param name="rlMaxMicroViaOuter" value="20mil"/>
-<param name="rlMinMicroViaInner" value="5mil"/>
+<param name="rlMinMicroViaInner" value="4mil"/>
 <param name="rlMaxMicroViaInner" value="20mil"/>
 <param name="psTop" value="-1"/>
 <param name="psBottom" value="-1"/>
@@ -2288,7 +2290,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <param name="mlMaxStopFrame" value="2.5mil"/>
 <param name="mlMinCreamFrame" value="0mil"/>
 <param name="mlMaxCreamFrame" value="0mil"/>
-<param name="mlViaStopLimit" value="0mil"/>
+<param name="mlViaStopLimit" value="0.010159375mm"/>
 <param name="srRoundness" value="0"/>
 <param name="srMinRoundness" value="0mil"/>
 <param name="srMaxRoundness" value="0mil"/>
@@ -3010,19 +3012,17 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="C11" pad="2"/>
 <contactref element="C10" pad="2"/>
 <contactref element="C3" pad="2"/>
-<polygon width="0.1524" layer="1">
-<vertex x="-2.51333125" y="67.066159375"/>
-<vertex x="-2.51333125" y="-2.150109375"/>
-<vertex x="121.010321875" y="-2.150109375"/>
+<polygon width="0.2" layer="1">
+<vertex x="7.08666875" y="67.066159375"/>
+<vertex x="7.08666875" y="0.149890625"/>
+<vertex x="121.010321875" y="0.149890625"/>
 <vertex x="121.010321875" y="67.066159375"/>
 </polygon>
-<polygon width="0.1524" layer="16">
-<vertex x="-0.892809375" y="66.271140625"/>
-<vertex x="-0.892809375" y="-1.47446875"/>
-<vertex x="120.989340625" y="-1.47446875"/>
+<polygon width="0.2" layer="16">
+<vertex x="7.0983" y="67.077590625"/>
+<vertex x="7.0983" y="0.12553125"/>
+<vertex x="120.989340625" y="0.12553125"/>
 <vertex x="120.989340625" y="67.077590625"/>
-<vertex x="-0.9017" y="67.077590625"/>
-<vertex x="-0.9017" y="66.201290625"/>
 </polygon>
 <contactref element="C15" pad="2"/>
 <contactref element="VR" pad="2"/>
@@ -3043,13 +3043,13 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="26.5" y="45.7" extent="1-16" drill="0.35"/>
 <via x="41.7" y="42.9" extent="1-16" drill="0.35"/>
 <via x="45.8" y="43.8" extent="1-16" drill="0.35"/>
-<via x="50.8" y="43.8" extent="1-16" drill="0.35"/>
+<via x="50.8" y="44.2" extent="1-16" drill="0.35"/>
 <via x="34.3" y="38" extent="1-16" drill="0.35"/>
 <via x="44.9" y="38.9" extent="1-16" drill="0.35"/>
 <via x="51.3" y="38.8" extent="1-16" drill="0.35"/>
 <via x="40.9" y="32.3" extent="1-16" drill="0.35"/>
 <via x="35.2" y="31.5" extent="1-16" drill="0.35"/>
-<via x="46.7" y="27.6" extent="1-16" drill="0.35"/>
+<via x="47.1" y="27.5" extent="1-16" drill="0.35"/>
 <via x="31.6" y="27.5" extent="1-16" drill="0.35"/>
 <via x="11.6" y="29.5" extent="1-16" drill="0.35"/>
 <via x="57.8" y="24.6" extent="1-16" drill="0.35"/>
