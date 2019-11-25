@@ -32,8 +32,8 @@
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
@@ -175,10 +175,6 @@
 <dimension x1="79.117071875" y1="4.600228125" x2="29.9" y2="15.8" x3="54.508534375" y3="-4.25" textsize="1.778" layer="51" dtype="horizontal"/>
 <dimension x1="79.13843125" y1="62.5861125" x2="30.1" y2="62.7" x3="54.619215625" y3="69.1" textsize="1.778" layer="51" dtype="horizontal"/>
 <dimension x1="82.3" y1="14.9" x2="95.4" y2="14.9" x3="88.85" y3="16.6" textsize="1.778" layer="51" unit="inch"/>
-<text x="40.9" y="56.8" size="1.778" layer="21">FearBot Control Board
-ECE 411 Team 13
-Version 2.5</text>
-<text x="26.1" y="4.6" size="1.778" layer="22" rot="MR0">DRAMATHICC</text>
 </plain>
 <libraries>
 <library name="rcl" urn="urn:adsk.eagle:library:334">
@@ -2421,8 +2417,8 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="DESC" value="CAP CER 0.1UF 50V X7R 0805" x="101.597909375" y="41.631990625" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MFR" value="Samsung" x="101.597909375" y="41.631990625" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="CL21B104KBCNNNC" x="101.597909375" y="41.631990625" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="34.431646875" y="13.785721875" size="1.016" layer="25" rot="R90"/>
-<attribute name="VALUE" x="37.690628125" y="13.285409375" size="1.016" layer="27" rot="R90"/>
+<attribute name="NAME" x="34.731646875" y="13.785721875" size="1.016" layer="25" rot="R90"/>
+<attribute name="VALUE" x="35.990628125" y="10.085409375" size="1.016" layer="27" rot="R90"/>
 </element>
 <element name="C15" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" package="C2.5-3" package3d_urn="urn:adsk.eagle:package:5436/1" value=".33u" x="97.12559375" y="62.6067125" smashed="yes" rot="R90">
 <attribute name="NAME" x="95.34759375" y="60.9557125" size="1.27" layer="25" ratio="10" rot="R90"/>
@@ -2433,14 +2429,14 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="DESC" value="CAP CER 18PF 50V C0G/NP0 0805" x="100.055071875" y="-51.915190625" size="1.778" layer="27" display="off"/>
 <attribute name="MFR" value="Samsung" x="100.055071875" y="-51.915190625" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="CL21C180JBANNNC" x="100.055071875" y="-51.915190625" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="42.813990625" y="15.324396875" size="1.016" layer="25"/>
+<attribute name="NAME" x="39.613990625" y="13.624396875" size="1.016" layer="25"/>
 <attribute name="VALUE" x="43.0315625" y="11.9035" size="1.016" layer="27"/>
 </element>
 <element name="C17" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="30p" x="51.669340625" y="14.16671875" smashed="yes" rot="R180">
 <attribute name="DESC" value="CAP CER 18PF 50V C0G/NP0 0805" x="-8.020659375" y="80.20671875" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MFR" value="Samsung" x="-8.020659375" y="80.20671875" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="CL21C180JBANNNC" x="-8.020659375" y="80.20671875" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="52.897403125" y="16.20048125" size="1.016" layer="25" rot="R180"/>
+<attribute name="NAME" x="56.197403125" y="14.80048125" size="1.016" layer="25" rot="R180"/>
 <attribute name="VALUE" x="52.7176" y="13.1635" size="1.016" layer="27" rot="R180"/>
 </element>
 <element name="C18" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="100n" x="11.662634375" y="31.716340625" smashed="yes" rot="R270">
@@ -2473,7 +2469,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="DESC" value="CAP CER 0.1UF 50V X7R 0805" x="-3.17688125" y="-35.031809375" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MFR" value="Samsung" x="-3.17688125" y="-35.031809375" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="CL21B104KBCNNNC" x="-3.17688125" y="-35.031809375" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="58.85811875" y="27.398190625" size="1.016" layer="25" rot="R270"/>
+<attribute name="NAME" x="58.65811875" y="28.198190625" size="1.016" layer="25" rot="R270"/>
 <attribute name="VALUE" x="55.88311875" y="28.198190625" size="1.016" layer="27" rot="R270"/>
 </element>
 <element name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="100n" x="45.847659375" y="41.395465625" smashed="yes" rot="R90">
@@ -2487,7 +2483,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="DESC" value="CAP CER 1UF 16V X7R 0805" x="-25.42651875" y="97.56635" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MFR" value="Samsung" x="-25.42651875" y="97.56635" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="CL21B105KOFNNNG" x="-25.42651875" y="97.56635" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="38.91283125" y="30.366128125" size="1.016" layer="25" rot="R180"/>
+<attribute name="NAME" x="36.41283125" y="32.066128125" size="1.016" layer="25" rot="R180"/>
 <attribute name="VALUE" x="39.07348125" y="33.42635" size="1.016" layer="27" rot="R180"/>
 </element>
 <element name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805K" package3d_urn="urn:adsk.eagle:package:23681/2" value="4.7u" x="32.13533125" y="47.754640625" smashed="yes">
@@ -2508,14 +2504,15 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="DESC" value="LED GREEN CLEAR 0805 SMD" x="-30.21765" y="65.608159375" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MFR" value="Würth Elektronik" x="-30.21765" y="65.608159375" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="150080GS75000" x="-30.21765" y="65.608159375" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="36.79235" y="39.808159375" size="1.27" layer="25" rot="R270"/>
+<attribute name="NAME" x="37.09235" y="40.208159375" size="1.27" layer="25" rot="R270"/>
 <attribute name="VALUE" x="33.488090625" y="40.89523125" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="D3" library="led" package="CHIP-LED0805" value="GREEN" x="62.079578125" y="38.291290625" smashed="yes" rot="R270">
 <attribute name="DESC" value="LED GREEN CLEAR 0805 SMD" x="25.249578125" y="21.781290625" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MFR" value="Würth Elektronik" x="25.249578125" y="21.781290625" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="150080GS75000" x="25.249578125" y="21.781290625" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="61.209578125" y="35.961290625" size="1.27" layer="25"/>
+<attribute name="NAME" x="60.809578125" y="39.561290625" size="1.27" layer="25"/>
+<attribute name="VALUE" x="60.809578125" y="35.751290625" size="1.27" layer="27"/>
 </element>
 <element name="D4" library="SparkFun-DiscreteSemi" package="SMA-DIODE" value="B340A" x="30.9046625" y="42.1187625" smashed="yes" rot="R90">
 <attribute name="DESC" value="DIODE SCHOTTKY 40V 2A SMA" x="102.0246625" y="73.8687625" size="1.778" layer="27" rot="R90" display="off"/>
@@ -2529,12 +2526,14 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="MFR" value="Würth Elektronik" x="49.969759375" y="-7.69750625" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="150080GS75000" x="49.969759375" y="-7.69750625" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="19.489759375" y="27.86249375" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="21.3363375" y="27.477684375" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="D7" library="led" package="CHIP-LED0805" value="GREEN" x="16.83325" y="29.4363" smashed="yes">
 <attribute name="DESC" value="LED GREEN CLEAR 0805 SMD" x="52.39325" y="-7.3937" size="1.778" layer="27" display="off"/>
 <attribute name="MFR" value="Würth Elektronik" x="52.39325" y="-7.3937" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="150080GS75000" x="52.39325" y="-7.3937" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="15.56325" y="28.1663" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="17.4111" y="27.8195875" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="H1" library="SparkFun-Hardware" library_urn="urn:adsk.eagle:library:519" package="STAND-OFF" package3d_urn="urn:adsk.eagle:package:38630/1" value="STAND-OFF" x="30.13" y="4.59" smashed="yes">
 <attribute name="NAME" x="30.13" y="6.622" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
@@ -2570,7 +2569,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="DESC" value="RES SMD 1K OHM 1% 1/8W 0805" x="82.895840625" y="68.6619" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MFR" value="Yageo" x="82.895840625" y="68.6619" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="RC0805FR-071KL" x="82.895840625" y="68.6619" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="34.835840625" y="41.8269" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="34.635840625" y="42.6269" size="1.27" layer="25" rot="R90"/>
 <attribute name="POPULARITY" value="85" x="82.895840625" y="68.6619" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="82.895840625" y="68.6619" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="38.445840625" y="42.6269" size="1.27" layer="27" rot="R90"/>
@@ -2579,7 +2578,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="DESC" value="RES SMD 1K OHM 1% 1/8W 0805" x="12.06928125" y="-16.023940625" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MFR" value="Yageo" x="12.06928125" y="-16.023940625" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="RC0805FR-071KL" x="12.06928125" y="-16.023940625" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="56.62928125" y="37.681059375" size="1.27" layer="25" rot="R270"/>
+<attribute name="NAME" x="60.32928125" y="36.681059375" size="1.27" layer="25" rot="R270"/>
 <attribute name="POPULARITY" value="85" x="12.06928125" y="-16.023940625" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="12.06928125" y="-16.023940625" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="56.51928125" y="36.681059375" size="1.27" layer="27" rot="R270"/>
@@ -2591,40 +2590,40 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="NAME" x="14.59438125" y="25.82278125" size="1.27" layer="25" rot="R270"/>
 <attribute name="POPULARITY" value="85" x="-30.009290625" y="-7.580759375" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="-30.009290625" y="-7.580759375" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="12.896659375" y="25.2081" size="1.27" layer="27" rot="R270"/>
+<attribute name="VALUE" x="17.596659375" y="25.2081" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10K" x="21.836640625" y="19.505475" smashed="yes" rot="R180">
 <attribute name="DESC" value="RES SMD 10K OHM 1% 1/8W 0805" x="-20.073359375" y="66.495475" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MFR" value="Yageo" x="-20.073359375" y="66.495475" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="RC0805FR-0710KL" x="-20.073359375" y="66.495475" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="22.949890625" y="21.810321875" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="26.249890625" y="20.210321875" size="1.27" layer="25" rot="R180"/>
 <attribute name="POPULARITY" value="85" x="-20.073359375" y="66.495475" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="-20.073359375" y="66.495475" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="23.29866875" y="18.59254375" size="1.27" layer="27" rot="R180"/>
+<attribute name="VALUE" x="20.29866875" y="20.19254375" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="22" x="19.328878125" y="39.358271875" smashed="yes">
 <attribute name="DESC" value="RES SMD 22 OHM 1% 1/8W 0805" x="81.558878125" y="-7.631728125" size="1.778" layer="27" display="off"/>
 <attribute name="MFR" value="Yageo" x="81.558878125" y="-7.631728125" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="RC0805FR-0722RL" x="81.558878125" y="-7.631728125" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="16.708309375" y="40.50729375" size="1.27" layer="25"/>
+<attribute name="NAME" x="17.308309375" y="40.40729375" size="1.27" layer="25"/>
 <attribute name="POPULARITY" value="85" x="81.558878125" y="-7.631728125" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="81.558878125" y="-7.631728125" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="19.323215625" y="40.489721875" size="1.27" layer="27"/>
+<attribute name="VALUE" x="17.223215625" y="36.989721875" size="1.27" layer="27"/>
 </element>
 <element name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="22" x="19.897128125" y="36.161634375" smashed="yes">
 <attribute name="DESC" value="RES SMD 22 OHM 1% 1/8W 0805" x="87.207128125" y="-10.828365625" size="1.778" layer="27" display="off"/>
 <attribute name="MFR" value="Yageo" x="87.207128125" y="-10.828365625" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="RC0805FR-0722RL" x="87.207128125" y="-10.828365625" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="18.720678125" y="37.10369375" size="1.27" layer="25"/>
+<attribute name="NAME" x="17.820678125" y="37.40369375" size="1.27" layer="25"/>
 <attribute name="POPULARITY" value="85" x="87.207128125" y="-10.828365625" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="87.207128125" y="-10.828365625" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="18.77115" y="34.017215625" size="1.27" layer="27"/>
+<attribute name="VALUE" x="17.77115" y="33.817215625" size="1.27" layer="27"/>
 </element>
 <element name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10K" x="58.448603125" y="40.883709375" smashed="yes" rot="R270">
 <attribute name="DESC" value="RES SMD 10K OHM 1% 1/8W 0805" x="11.458603125" y="-6.106290625" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MFR" value="Yageo" x="11.458603125" y="-6.106290625" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="RC0805FR-0710KL" x="11.458603125" y="-6.106290625" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="59.518603125" y="41.918709375" size="1.27" layer="25" rot="R270"/>
+<attribute name="NAME" x="59.718603125" y="41.518709375" size="1.27" layer="25" rot="R270"/>
 <attribute name="POPULARITY" value="85" x="11.458603125" y="-6.106290625" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="11.458603125" y="-6.106290625" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="55.908603125" y="41.518709375" size="1.27" layer="27" rot="R270"/>
@@ -2642,16 +2641,16 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="DESC" value="RES SMD 1K OHM 1% 1/8W 0805" x="-33.797703125" y="3.89796875" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MFR" value="Yageo" x="-33.797703125" y="3.89796875" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="RC0805FR-071KL" x="-33.797703125" y="3.89796875" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="18.69675625" y="25.500946875" size="1.27" layer="25" rot="R270"/>
+<attribute name="NAME" x="18.39675625" y="25.200946875" size="1.27" layer="25" rot="R270"/>
 <attribute name="POPULARITY" value="85" x="-33.797703125" y="3.89796875" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="-33.797703125" y="3.89796875" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="21.655525" y="25.3343" size="1.27" layer="27" rot="R270"/>
+<attribute name="VALUE" x="21.255525" y="25.3343" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="4.7K" x="69.696390625" y="24.3018875" smashed="yes" rot="R209.3">
 <attribute name="DESC" value="RES SMD 10K OHM 1% 1/8W 0805" x="20.820653125" y="59.495275" size="1.778" layer="27" rot="R209.3" display="off"/>
 <attribute name="MFR" value="Yageo" x="20.820653125" y="59.495275" size="1.778" layer="27" rot="R209.3" display="off"/>
 <attribute name="MPN" value="RC0805FR-0710KL" x="20.820653125" y="59.495275" size="1.778" layer="27" rot="R209.3" display="off"/>
-<attribute name="NAME" x="69.27166875" y="26.805115625" size="1.27" layer="25" rot="R209.3"/>
+<attribute name="NAME" x="70.87166875" y="23.505115625" size="1.27" layer="25" rot="R209.3"/>
 <attribute name="POPULARITY" value="85" x="20.820653125" y="59.495275" size="1.778" layer="27" rot="R209.3" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="20.820653125" y="59.495275" size="1.778" layer="27" rot="R209.3" display="off"/>
 <attribute name="VALUE" x="69.007121875" y="26.8277" size="1.27" layer="27" rot="R209.3"/>
@@ -2701,7 +2700,7 @@ Please make sure your boards conform to these design rules.</description>
 <element name="MOTOR_BATTERY_CONNECTOR" library="con-lstb" library_urn="urn:adsk.eagle:library:162" package="MA04-1" package3d_urn="urn:adsk.eagle:package:8337/1" value="MOTOR_BATTERY_CONNECTOR" x="112.2385875" y="56.2790375" smashed="yes" rot="R90">
 <attribute name="MF" value="" x="112.2385875" y="56.2790375" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="" x="112.2385875" y="56.2790375" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="110.0375875" y="36.4490375" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="NAME" x="109.6375875" y="40.2490375" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="OC_FARNELL" value="unknown" x="112.2385875" y="56.2790375" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="112.2385875" y="56.2790375" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="POPULARITY" value="41" x="112.2385875" y="56.2790375" size="1.778" layer="27" rot="R90" display="off"/>
@@ -2732,7 +2731,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="DESC" value="RES SMD 1K OHM 1% 1/8W 0805" x="95.8" y="39.95" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MFR" value="Yageo" x="95.8" y="39.95" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="RC0805FR-071KL" x="95.8" y="39.95" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="94.33" y="38.565" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="94.43" y="38.465" size="1.27" layer="25" rot="R90"/>
 <attribute name="POPULARITY" value="85" x="95.8" y="39.95" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="95.8" y="39.95" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="98.34" y="39.315" size="1.27" layer="27" rot="R90"/>
@@ -2741,7 +2740,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="DESC" value="RES SMD 1K OHM 1% 1/8W 0805" x="91.7" y="39.95" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MFR" value="Yageo" x="91.7" y="39.95" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="RC0805FR-071KL" x="91.7" y="39.95" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="89.37" y="41.785" size="1.27" layer="25" rot="R270"/>
+<attribute name="NAME" x="92.97" y="40.585" size="1.27" layer="25" rot="R270"/>
 <attribute name="POPULARITY" value="85" x="91.7" y="39.95" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="91.7" y="39.95" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="89.16" y="40.585" size="1.27" layer="27" rot="R270"/>
@@ -2750,34 +2749,34 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="DESC" value="RES SMD 1K OHM 1% 1/8W 0805" x="67.75" y="42.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MFR" value="Yageo" x="67.75" y="42.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="RC0805FR-071KL" x="67.75" y="42.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="68.72" y="45.135" size="1.27" layer="25" rot="R270"/>
+<attribute name="NAME" x="65.32" y="44.135" size="1.27" layer="25" rot="R270"/>
 <attribute name="POPULARITY" value="85" x="67.75" y="42.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="67.75" y="42.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="65.51" y="45.735" size="1.27" layer="27" rot="R270"/>
+<attribute name="VALUE" x="65.21" y="43.135" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="R16" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="2.2k" x="39.05" y="52.05" smashed="yes" rot="R270">
 <attribute name="DESC" value="RES SMD 1K OHM 1% 1/8W 0805" x="39.05" y="52.05" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MFR" value="Yageo" x="39.05" y="52.05" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="RC0805FR-071KL" x="39.05" y="52.05" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="36.72" y="53.685" size="1.27" layer="25" rot="R270"/>
+<attribute name="NAME" x="40.32" y="52.685" size="1.27" layer="25" rot="R270"/>
 <attribute name="POPULARITY" value="85" x="39.05" y="52.05" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="39.05" y="52.05" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="39.91" y="53.785" size="1.27" layer="27" rot="R270"/>
+<attribute name="VALUE" x="36.51" y="52.685" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="R17" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k" x="42.9" y="51.1" smashed="yes">
 <attribute name="DESC" value="RES SMD 1K OHM 1% 1/8W 0805" x="42.9" y="51.1" size="1.778" layer="27" display="off"/>
 <attribute name="MFR" value="Yageo" x="42.9" y="51.1" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="RC0805FR-071KL" x="42.9" y="51.1" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="41.365" y="48.87" size="1.27" layer="25"/>
+<attribute name="NAME" x="42.265" y="52.37" size="1.27" layer="25"/>
 <attribute name="POPULARITY" value="85" x="42.9" y="51.1" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="42.9" y="51.1" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="42.665" y="52.06" size="1.27" layer="27"/>
+<attribute name="VALUE" x="42.265" y="48.56" size="1.27" layer="27"/>
 </element>
 <element name="R18" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k" x="64.3" y="41.55" smashed="yes" rot="R180">
 <attribute name="DESC" value="RES SMD 1K OHM 1% 1/8W 0805" x="64.3" y="41.55" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MFR" value="Yageo" x="64.3" y="41.55" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="RC0805FR-071KL" x="64.3" y="41.55" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="65.835" y="40.48" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="65.335" y="40.28" size="1.27" layer="25" rot="R180"/>
 <attribute name="POPULARITY" value="85" x="64.3" y="41.55" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="64.3" y="41.55" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="64.935" y="44.09" size="1.27" layer="27" rot="R180"/>
@@ -2798,7 +2797,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="DESC" value="RES SMD 1K OHM 1% 1/8W 0805" x="128.7" y="5.55" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MFR" value="Yageo" x="128.7" y="5.55" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="RC0805FR-071KL" x="128.7" y="5.55" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="114.235" y="23.33" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="113.335" y="19.83" size="1.27" layer="25" rot="R180"/>
 <attribute name="POPULARITY" value="85" x="128.7" y="5.55" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="128.7" y="5.55" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="113.335" y="23.64" size="1.27" layer="27" rot="R180"/>
@@ -2807,7 +2806,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="DESC" value="RES SMD 1K OHM 1% 1/8W 0805" x="91.6" y="26.85" size="1.778" layer="27" display="off"/>
 <attribute name="MFR" value="Yageo" x="91.6" y="26.85" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="RC0805FR-071KL" x="91.6" y="26.85" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="111.215" y="15.02" size="1.27" layer="25"/>
+<attribute name="NAME" x="112.115" y="18.72" size="1.27" layer="25"/>
 <attribute name="POPULARITY" value="85" x="91.6" y="26.85" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="91.6" y="26.85" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="112.115" y="14.91" size="1.27" layer="27"/>
@@ -2816,25 +2815,25 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="DESC" value="RES SMD 1K OHM 1% 1/8W 0805" x="91.9" y="35.35" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MFR" value="Yageo" x="91.9" y="35.35" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="RC0805FR-071KL" x="91.9" y="35.35" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="73.485" y="30.43" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="69.085" y="28.63" size="1.27" layer="25" rot="R180"/>
 <attribute name="POPULARITY" value="85" x="91.9" y="35.35" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="91.9" y="35.35" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="73.685" y="28.94" size="1.27" layer="27" rot="R180"/>
+<attribute name="VALUE" x="69.085" y="32.44" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="R22" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="2.2k" x="55.9" y="48.85" smashed="yes" rot="R180">
 <attribute name="DESC" value="RES SMD 1K OHM 1% 1/8W 0805" x="84.6" y="60.45" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MFR" value="Yageo" x="84.6" y="60.45" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="RC0805FR-071KL" x="84.6" y="60.45" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="57.535" y="47.88" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="56.535" y="47.58" size="1.27" layer="25" rot="R180"/>
 <attribute name="POPULARITY" value="85" x="84.6" y="60.45" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="84.6" y="60.45" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="61.335" y="49.39" size="1.27" layer="27" rot="R180"/>
+<attribute name="VALUE" x="56.535" y="51.39" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="R23" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k" x="55" y="52.05" smashed="yes" rot="R90">
 <attribute name="DESC" value="RES SMD 1K OHM 1% 1/8W 0805" x="64.05" y="25.75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MFR" value="Yageo" x="64.05" y="25.75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="RC0805FR-071KL" x="64.05" y="25.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="53.93" y="50.515" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="53.73" y="51.415" size="1.27" layer="25" rot="R90"/>
 <attribute name="POPULARITY" value="85" x="64.05" y="25.75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="64.05" y="25.75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="57.54" y="51.415" size="1.27" layer="27" rot="R90"/>
@@ -2843,16 +2842,16 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="DESC" value="RES SMD 1K OHM 1% 1/8W 0805" x="82.75" y="1.65" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MFR" value="Yageo" x="82.75" y="1.65" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="RC0805FR-071KL" x="82.75" y="1.65" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="69.68" y="31.465" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="66.28" y="32.465" size="1.27" layer="25" rot="R90"/>
 <attribute name="POPULARITY" value="85" x="82.75" y="1.65" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="82.75" y="1.65" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="71.19" y="31.665" size="1.27" layer="27" rot="R90"/>
+<attribute name="VALUE" x="70.09" y="32.465" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R25" library="rcl" library_urn="urn:adsk.eagle:library:334" package="0207/2V" package3d_urn="urn:adsk.eagle:package:23490/1" value="0" x="62.7" y="29.9" smashed="yes" rot="R180">
 <attribute name="DESC" value="RES SMD 10K OHM 1% 1/8W 0805" x="62.7" y="29.9" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MFR" value="Yageo" x="62.7" y="29.9" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="RC0805FR-0710KL" x="62.7" y="29.9" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="64.235" y="28.83" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="63.335" y="28.63" size="1.27" layer="25" rot="R180"/>
 <attribute name="POPULARITY" value="0" x="62.7" y="29.9" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="62.7" y="29.9" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="63.335" y="32.44" size="1.27" layer="27" rot="R180"/>
@@ -2870,7 +2869,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="DESC" value="RES SMD 10K OHM 1% 1/8W 0805" x="38.9" y="44.2" size="1.778" layer="27" rot="R269" display="off"/>
 <attribute name="MFR" value="Yageo" x="38.9" y="44.2" size="1.778" layer="27" rot="R269" display="off"/>
 <attribute name="MPN" value="RC0805FR-0710KL" x="38.9" y="44.2" size="1.778" layer="27" rot="R269" display="off"/>
-<attribute name="NAME" x="40.38960625" y="46.91091875" size="1.27" layer="25" rot="R269"/>
+<attribute name="NAME" x="36.48960625" y="45.81091875" size="1.27" layer="25" rot="R269"/>
 <attribute name="POPULARITY" value="0" x="38.9" y="44.2" size="1.778" layer="27" rot="R269" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="38.9" y="44.2" size="1.778" layer="27" rot="R269" display="off"/>
 <attribute name="VALUE" x="38.571475" y="47.279234375" size="1.27" layer="27" rot="R269"/>
@@ -2879,16 +2878,16 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="DESC" value="RES SMD 10K OHM 1% 1/8W 0805" x="60.6" y="33.1" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MFR" value="Yageo" x="60.6" y="33.1" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="RC0805FR-0710KL" x="60.6" y="33.1" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="61.935" y="32.23" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="61.235" y="31.83" size="1.27" layer="25" rot="R180"/>
 <attribute name="POPULARITY" value="0" x="60.6" y="33.1" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="60.6" y="33.1" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="63.735" y="35.14" size="1.27" layer="27" rot="R180"/>
+<attribute name="VALUE" x="61.235" y="35.64" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="R29" library="rcl" library_urn="urn:adsk.eagle:library:334" package="0207/2V" package3d_urn="urn:adsk.eagle:package:23490/1" value="0" x="62.2" y="17.6" smashed="yes">
 <attribute name="DESC" value="RES SMD 10K OHM 1% 1/8W 0805" x="62.2" y="17.6" size="1.778" layer="27" display="off"/>
 <attribute name="MFR" value="Yageo" x="62.2" y="17.6" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="RC0805FR-0710KL" x="62.2" y="17.6" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="60.265" y="14.67" size="1.27" layer="25"/>
+<attribute name="NAME" x="61.565" y="18.87" size="1.27" layer="25"/>
 <attribute name="POPULARITY" value="0" x="62.2" y="17.6" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="62.2" y="17.6" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="61.565" y="15.06" size="1.27" layer="27"/>
@@ -2897,7 +2896,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="DESC" value="RES SMD 10K OHM 1% 1/8W 0805" x="60" y="22.4" size="1.778" layer="27" display="off"/>
 <attribute name="MFR" value="Yageo" x="60" y="22.4" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="RC0805FR-0710KL" x="60" y="22.4" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="58.065" y="19.37" size="1.27" layer="25"/>
+<attribute name="NAME" x="59.365" y="23.67" size="1.27" layer="25"/>
 <attribute name="POPULARITY" value="0" x="60" y="22.4" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="60" y="22.4" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="59.365" y="19.86" size="1.27" layer="27"/>
@@ -2906,7 +2905,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="DESC" value="RES SMD 10K OHM 1% 1/8W 0805" x="99" y="40.3" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MFR" value="Yageo" x="99" y="40.3" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="RC0805FR-0710KL" x="99" y="40.3" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="101.83" y="37.265" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="97.73" y="39.665" size="1.27" layer="25" rot="R90"/>
 <attribute name="POPULARITY" value="0" x="99" y="40.3" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="99" y="40.3" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="101.54" y="39.665" size="1.27" layer="27" rot="R90"/>
@@ -2915,7 +2914,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="DESC" value="RES SMD 10K OHM 1% 1/8W 0805" x="104.8" y="25.5" size="1.778" layer="27" display="off"/>
 <attribute name="MFR" value="Yageo" x="104.8" y="25.5" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="RC0805FR-0710KL" x="104.8" y="25.5" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="99.165" y="24.87" size="1.27" layer="25"/>
+<attribute name="NAME" x="103.065" y="22.87" size="1.27" layer="25"/>
 <attribute name="POPULARITY" value="0" x="104.8" y="25.5" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="104.8" y="25.5" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="101.665" y="25.76" size="1.27" layer="27"/>
@@ -2924,7 +2923,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="DESC" value="RES SMD 10K OHM 1% 1/8W 0805" x="104.8" y="28" size="1.778" layer="27" display="off"/>
 <attribute name="MFR" value="Yageo" x="104.8" y="28" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="RC0805FR-0710KL" x="104.8" y="28" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="98.765" y="27.47" size="1.27" layer="25"/>
+<attribute name="NAME" x="104.165" y="29.27" size="1.27" layer="25"/>
 <attribute name="POPULARITY" value="0" x="104.8" y="28" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="104.8" y="28" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="104.165" y="25.46" size="1.27" layer="27"/>
@@ -2933,7 +2932,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="DESC" value="RES SMD 10K OHM 1% 1/8W 0805" x="104.5" y="30.6" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MFR" value="Yageo" x="104.5" y="30.6" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="RC0805FR-0710KL" x="104.5" y="30.6" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="102.435" y="31.13" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="105.135" y="29.33" size="1.27" layer="25" rot="R180"/>
 <attribute name="POPULARITY" value="0" x="104.5" y="30.6" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="104.5" y="30.6" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="105.135" y="33.14" size="1.27" layer="27" rot="R180"/>
@@ -2942,7 +2941,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="DESC" value="RES SMD 10K OHM 1% 1/8W 0805" x="104.4" y="33" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MFR" value="Yageo" x="104.4" y="33" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="RC0805FR-0710KL" x="104.4" y="33" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="102.135" y="33.63" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="105.035" y="31.73" size="1.27" layer="25" rot="R180"/>
 <attribute name="POPULARITY" value="0" x="104.4" y="33" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="104.4" y="33" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="105.035" y="35.54" size="1.27" layer="27" rot="R180"/>
@@ -2960,7 +2959,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="DESC" value="RES SMD 10K OHM 1% 1/8W 0805" x="70.2" y="20.9" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MFR" value="Yageo" x="70.2" y="20.9" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="RC0805FR-0710KL" x="70.2" y="20.9" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="71.5508" y="18.884" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="NAME" x="70.2508" y="19.884" size="1.27" layer="25" ratio="10" rot="R180"/>
 <attribute name="POPULARITY" value="0" x="70.2" y="20.9" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="70.2" y="20.9" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="70.2508" y="23.1352" size="1.27" layer="27" ratio="10" rot="R180"/>
@@ -2978,7 +2977,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="DESC" value="RES SMD 10K OHM 1% 1/8W 0805" x="25.2" y="38.5" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MFR" value="Yageo" x="25.2" y="38.5" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="RC0805FR-0710KL" x="25.2" y="38.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="26.335" y="40.63" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="23.135" y="40.03" size="1.27" layer="25" rot="R180"/>
 <attribute name="POPULARITY" value="0" x="25.2" y="38.5" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="25.2" y="38.5" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="22.835" y="38.34" size="1.27" layer="27" rot="R180"/>
@@ -3618,10 +3617,10 @@ Please make sure your boards conform to these design rules.</description>
 <signal name="RIGHT_MOTOR1_0">
 <contactref element="R33" pad="2"/>
 <wire x1="106.07" y1="25.5" x2="112.243209375" y2="25.5" width="1" layer="1"/>
-<wire x1="112.243209375" y1="25.5" x2="112.254678125" y2="25.48853125" width="2" layer="1"/>
-<wire x1="112.254678125" y1="25.48853125" x2="114.794678125" y2="25.48853125" width="1" layer="1"/>
-<contactref element="MOTOR_CONNECTOR" pad="2"/>
-<contactref element="MOTOR_CONNECTOR" pad="1"/>
+<wire x1="112.243209375" y1="25.5" x2="112.254678125" y2="28.02853125" width="2" layer="1"/>
+<wire x1="112.254678125" y1="28.02853125" x2="114.794678125" y2="28.02853125" width="1" layer="1"/>
+<contactref element="MOTOR_CONNECTOR" pad="4"/>
+<contactref element="MOTOR_CONNECTOR" pad="3"/>
 </signal>
 <signal name="PWM_3_0">
 <contactref element="R21" pad="2"/>
@@ -3801,14 +3800,12 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="111" y1="19.5" x2="105.985" y2="14.485" width="1" layer="1"/>
 </signal>
 <signal name="RIGHT_MOTOR2_0">
-<wire x1="112.226146875" y1="28" x2="112.254678125" y2="28.02853125" width="2" layer="1"/>
-<wire x1="114.694678125" y1="27.92853125" x2="112.354678125" y2="27.92853125" width="1" layer="1"/>
-<wire x1="112.254678125" y1="28.02853125" x2="112.354678125" y2="27.92853125" width="1" layer="1"/>
-<wire x1="114.694678125" y1="27.92853125" x2="114.794678125" y2="28.02853125" width="1" layer="1"/>
-<contactref element="MOTOR_CONNECTOR" pad="4"/>
-<contactref element="MOTOR_CONNECTOR" pad="3"/>
+<wire x1="112.226146875" y1="28" x2="112.254678125" y2="25.48853125" width="2" layer="1"/>
+<wire x1="112.254678125" y1="25.48853125" x2="114.794678125" y2="25.48853125" width="1" layer="1"/>
+<contactref element="MOTOR_CONNECTOR" pad="2"/>
+<contactref element="MOTOR_CONNECTOR" pad="1"/>
 <contactref element="R34" pad="2"/>
-<wire x1="106.07" y1="28" x2="112.226146875" y2="28" width="1" layer="1"/>
+<wire x1="106.07" y1="28" x2="112.226146875" y2="28" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VBUS_0">
 <contactref element="C19" pad="1"/>
@@ -3835,10 +3832,6 @@ Please make sure your boards conform to these design rules.</description>
 </board>
 </drawing>
 <compatibility>
-<note version="6.3" minversion="6.2.2" severity="warning">
-Since Version 6.2.2 text objects can contain more than one line,
-which will not be processed correctly with this version.
-</note>
 <note version="8.2" severity="warning">
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)

@@ -15479,7 +15479,7 @@ this repo: https://github.com/andrewgreenberg/eaglecad-things</text>
 Each H bridge then controls a motor, being able to turn in forward
 or backward as needed. </text>
 <text x="83.82" y="402.59" size="12.7" layer="97">FearBot Controller</text>
-<text x="85.09" y="373.38" size="2.54" layer="97">Team 13
+<text x="85.09" y="374.65" size="2.54" layer="97">Team 13
 
 Bliss Brass
 Colton Bruce

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.2">
+<eagle version="9.5.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -15421,7 +15421,7 @@ Big oval pads</description>
 <part name="SUPPLY3" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
 <part name="SUPPLY6" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
 <part name="SUPPLY7" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
-<part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="FRAME_C_L" device="" value="FearBot Controller"/>
+<part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="FRAME_C_L" device=""/>
 <part name="SUPPLY8" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device="" value="VBUS_0"/>
 </parts>
 <sheets>
@@ -15478,13 +15478,6 @@ this repo: https://github.com/andrewgreenberg/eaglecad-things</text>
 <text x="406.4" y="124.46" size="1.778" layer="97">4 PWM signals come in from the Atmega processor to 2 H bridges.
 Each H bridge then controls a motor, being able to turn in forward
 or backward as needed. </text>
-<text x="83.82" y="402.59" size="12.7" layer="97">FearBot Controller</text>
-<text x="85.09" y="373.38" size="2.54" layer="97">Team 13
-
-Bliss Brass
-Colton Bruce
-Mike Hall
-Grace Semerjian</text>
 </plain>
 <instances>
 <instance part="U3" gate="G$1" x="195.58" y="175.26" smashed="yes">
@@ -17091,12 +17084,13 @@ Grace Semerjian</text>
 <label x="528.32" y="190.5" size="1.778" layer="95"/>
 <pinref part="MOTOR_CONNECTOR" gate="G$1" pin="3"/>
 <wire x1="511.81" y1="190.5" x2="527.05" y2="190.5" width="0.1524" layer="91"/>
-<wire x1="511.81" y1="190.5" x2="510.54" y2="190.5" width="0.1524" layer="91"/>
-<junction x="511.81" y="190.5"/>
-<wire x1="510.54" y1="190.5" x2="510.54" y2="185.42" width="0.1524" layer="91"/>
-<wire x1="510.54" y1="185.42" x2="511.81" y2="185.42" width="0.1524" layer="91"/>
+<junction x="510.54" y="190.5"/>
 <pinref part="R34" gate="G$1" pin="2"/>
-<wire x1="511.81" y1="185.42" x2="511.81" y2="168.91" width="0.1524" layer="91"/>
+<wire x1="511.81" y1="168.91" x2="511.81" y2="186.69" width="0.1524" layer="91"/>
+<wire x1="511.81" y1="186.69" x2="510.54" y2="186.69" width="0.1524" layer="91"/>
+<wire x1="510.54" y1="186.69" x2="510.54" y2="190.5" width="0.1524" layer="91"/>
+<wire x1="510.54" y1="190.5" x2="511.81" y2="190.5" width="0.1524" layer="91"/>
+<junction x="511.81" y="190.5"/>
 </segment>
 </net>
 <net name="VBUS_0" class="0">

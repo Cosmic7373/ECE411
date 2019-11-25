@@ -34,7 +34,7 @@
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
@@ -175,10 +175,6 @@
 <dimension x1="79.117071875" y1="4.600228125" x2="29.9" y2="15.8" x3="54.508534375" y3="-4.25" textsize="1.778" layer="51" dtype="horizontal"/>
 <dimension x1="79.13843125" y1="62.5861125" x2="30.1" y2="62.7" x3="54.619215625" y3="69.1" textsize="1.778" layer="51" dtype="horizontal"/>
 <dimension x1="82.3" y1="14.9" x2="95.4" y2="14.9" x3="88.85" y3="16.6" textsize="1.778" layer="51" unit="inch"/>
-<text x="40.9" y="56.8" size="1.778" layer="21">FearBot Control Board
-ECE 411 Team 13
-Version 2.5</text>
-<text x="26.1" y="4.6" size="1.778" layer="22" rot="MR0">DRAMATHICC</text>
 </plain>
 <libraries>
 <library name="rcl" urn="urn:adsk.eagle:library:334">
@@ -2701,7 +2697,7 @@ Please make sure your boards conform to these design rules.</description>
 <element name="MOTOR_BATTERY_CONNECTOR" library="con-lstb" library_urn="urn:adsk.eagle:library:162" package="MA04-1" package3d_urn="urn:adsk.eagle:package:8337/1" value="MOTOR_BATTERY_CONNECTOR" x="112.2385875" y="56.2790375" smashed="yes" rot="R90">
 <attribute name="MF" value="" x="112.2385875" y="56.2790375" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="" x="112.2385875" y="56.2790375" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="110.0375875" y="36.4490375" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="NAME" x="109.6375875" y="40.2490375" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="OC_FARNELL" value="unknown" x="112.2385875" y="56.2790375" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="112.2385875" y="56.2790375" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="POPULARITY" value="41" x="112.2385875" y="56.2790375" size="1.778" layer="27" rot="R90" display="off"/>
@@ -3835,10 +3831,6 @@ Please make sure your boards conform to these design rules.</description>
 </board>
 </drawing>
 <compatibility>
-<note version="6.3" minversion="6.2.2" severity="warning">
-Since Version 6.2.2 text objects can contain more than one line,
-which will not be processed correctly with this version.
-</note>
 <note version="8.2" severity="warning">
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
