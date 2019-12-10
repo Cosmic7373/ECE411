@@ -30,13 +30,15 @@ void setup() {
   // PD6 Pin 26 and PD7 Pin 27 Paired
 }
 
+
+
 void loop() {
-  //delay(100);
+  delay(100);
   // Noise is to the Back-Right turn LEFT
   if ((270 >= z) && (z > 110)) {
     // Add 1 millisecond delay
     delay(1);
-    for (int i = 30000; i > 0; i--) {  
+    for (int i = 1000; i > 0; i--) {  
       analogWrite(leftBackwards, 255);
       analogWrite(rightForwards, 255);
       delayMicroseconds(75);  // Delaying 50 Micro Seconds
@@ -57,7 +59,7 @@ void loop() {
   // Noise is to the Back-Left turn RIGHT
   else if (((70 > z) && (z >= 0)) || ((360 >= z) && (z > 270))) {
     delay(1);
-    for (int i = 30000; i > 0; i--) {  
+    for (int i = 1000; i > 0; i--) {  
       analogWrite(leftForwards, 255);
       analogWrite(rightBackwards, 255);
       delayMicroseconds(75);  // Delaying 50 Micro Seconds
@@ -71,7 +73,7 @@ void loop() {
   // Noise is behind drive STRAIGHT 
   else if ((110 >= z) && (z >= 70)) {
     delay(1);
-    for (int i = 30000; i > 0; i--) {  
+    for (int i = 1000; i > 0; i--) {  
       analogWrite(leftForwards, 255); // Setting V to max (Voltage)
       analogWrite(rightForwards, 255);
       delayMicroseconds(75);      // Delaying 50 Micro Seconds for PWM
