@@ -45,6 +45,15 @@ void loop() {
       analogWrite(rightForwards, 0);
       delayMicroseconds(25);
     }
+    delay(10); //delay to allow motors to settle
+    for (int i = 10000; i > 0; i--) {  
+      analogWrite(leftForwards, 255); // Setting V to max (Voltage)
+      analogWrite(rightForwards, 255);
+      delayMicroseconds(75);      // Delaying 50 Micro Seconds for PWM
+      analogWrite(leftForwards, 0);   // Setting V to 0
+      analogWrite(rightForwards, 0);
+      delayMicroseconds(25);
+    }
     delay(350); // Delay to counter act motor sound self activation
     z = 370;  // Setting Z outside the trigger range
     /*analogWrite(control1, brightness);
@@ -57,7 +66,7 @@ void loop() {
   // MIGHT HAVE ERRORS
   // Noise is directly in FRONT turn around!
   else if (z == 270) {
-    for (int i = 11900; i > 0; i--) {  
+    for (int i = 7500; i > 0; i--) {  
       analogWrite(leftBackwards, 255);
       analogWrite(rightForwards, 255);
       delayMicroseconds(75);  // Delaying 50 Micro Seconds
@@ -65,6 +74,15 @@ void loop() {
       analogWrite(rightForwards, 0);
       delayMicroseconds(25);
     }
+    delay(10);
+    for (int i = 10000; i > 0; i--) {  
+      analogWrite(leftForwards, 255); // Setting V to max (Voltage)
+      analogWrite(rightForwards, 255);
+      delayMicroseconds(75);      // Delaying 50 Micro Seconds for PWM
+      analogWrite(leftForwards, 0);   // Setting V to 0
+      analogWrite(rightForwards, 0);
+      delayMicroseconds(25);
+    }  
     delay(350); // Delay to counter act motor sound self activation
     z = 370;  // Setting Z outside the trigger range
   }
@@ -78,6 +96,16 @@ void loop() {
       analogWrite(rightForwards, 0);
       delayMicroseconds(25);
     }
+    
+    delay(10);
+    for (int i = 10000; i > 0; i--) {  
+      analogWrite(leftForwards, 255); // Setting V to max (Voltage)
+      analogWrite(rightForwards, 255);
+      delayMicroseconds(75);      // Delaying 50 Micro Seconds for PWM
+      analogWrite(leftForwards, 0);   // Setting V to 0
+      analogWrite(rightForwards, 0);
+      delayMicroseconds(25);
+    } 
     delay(350); // Delay to counter act motor sound self activation
     z = 370;  // Setting Z outside the trigger range
   }
@@ -89,6 +117,16 @@ void loop() {
       delayMicroseconds(75);  // Delaying 50 Micro Seconds
       analogWrite(leftForwards, 0);
       analogWrite(rightBackwards, 0);
+      delayMicroseconds(25);
+    }
+    
+    delay(10);
+    for (int i = 10000; i > 0; i--) {  
+      analogWrite(leftForwards, 255); // Setting V to max (Voltage)
+      analogWrite(rightForwards, 255);
+      delayMicroseconds(75);      // Delaying 50 Micro Seconds for PWM
+      analogWrite(leftForwards, 0);   // Setting V to 0
+      analogWrite(rightForwards, 0);
       delayMicroseconds(25);
     }
     delay(350); // Delay to counter act motor sound self activation
@@ -108,6 +146,16 @@ void loop() {
       analogWrite(rightBackwards, 0);
       delayMicroseconds(25);
     }
+    
+    delay(10);
+    for (int i = 10000; i > 0; i--) {  
+      analogWrite(leftForwards, 255); // Setting V to max (Voltage)
+      analogWrite(rightForwards, 255);
+      delayMicroseconds(75);      // Delaying 50 Micro Seconds for PWM
+      analogWrite(leftForwards, 0);   // Setting V to 0
+      analogWrite(rightForwards, 0);
+      delayMicroseconds(25);
+    } 
     delay(350); // Delay to counter act motor sound self activation
     z = 370;  // Setting Z outside the trigger range
   }
@@ -116,7 +164,7 @@ void loop() {
   else if ((130 >= z) && (z >= 50)) {
     //Serial.print("Z is STRAIGHT ");
     //Serial.println(z);
-    for (int i = 6000; i > 0; i--) {  
+    for (int i = 10000; i > 0; i--) {  
       analogWrite(leftForwards, 255); // Setting V to max (Voltage)
       analogWrite(rightForwards, 255);
       delayMicroseconds(75);      // Delaying 50 Micro Seconds for PWM
