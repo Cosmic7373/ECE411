@@ -31,13 +31,12 @@ void setup() {
 }
 
 void loop() {
-  //delay(100);
+  delay(10); // Small delay for Z to update properlly
   // Noise is to the Back-Right turn LEFT
-  if ((270 >= z) && (z > 130)) {
-    // Add 1 millisecond delay
-    Serial.print("Z is RIGHT");
-    Serial.println(z);
-    delay(1);
+  if ((250 > z) && (z > 130)) {
+    //Serial.print("Z is RIGHT");
+    //Serial.println(z);
+    
     for (int i = 5000; i > 0; i--) {  
       analogWrite(leftBackwards, 255);
       analogWrite(rightForwards, 255);
@@ -46,6 +45,7 @@ void loop() {
       analogWrite(rightForwards, 0);
       delayMicroseconds(25);
     }
+    delay(350); // Delay to counter act motor sound self activation
     z = 370;  // Setting Z outside the trigger range
     /*analogWrite(control1, brightness);
     brightness = brightness + fadeAmount;
@@ -54,13 +54,52 @@ void loop() {
     }
     delay(30);*/
   }
-  // Noise is to the ??? turn
   // MIGHT HAVE ERRORS
-  // Noise is to the Back-Left turn RIGHT
-  else if (((50 > z) && (z >= 0)) || ((360 >= z) && (z > 270))) {
-    Serial.print("Z is LEFT");
-    Serial.println(z);
-    delay(1);
+  // Noise is directly in FRONT turn around!
+  else if (z == 270) {
+    for (int i = 11900; i > 0; i--) {  
+      analogWrite(leftBackwards, 255);
+      analogWrite(rightForwards, 255);
+      delayMicroseconds(75);  // Delaying 50 Micro Seconds
+      analogWrite(leftBackwards, 0);
+      analogWrite(rightForwards, 0);
+      delayMicroseconds(25);
+    }
+    delay(350); // Delay to counter act motor sound self activation
+    z = 370;  // Setting Z outside the trigger range
+  }
+  // Noise is to the front left turn RIGHT
+  else if (z == 250) {
+    for (int i = 11500; i > 0; i--) {  
+      analogWrite(leftBackwards, 255);
+      analogWrite(rightForwards, 255);
+      delayMicroseconds(75);  // Delaying 50 Micro Seconds
+      analogWrite(leftBackwards, 0);
+      analogWrite(rightForwards, 0);
+      delayMicroseconds(25);
+    }
+    delay(350); // Delay to counter act motor sound self activation
+    z = 370;  // Setting Z outside the trigger range
+  }
+  // Noise is to the front right turn LEFT
+  else if (z == 290) {
+    for (int i = 11500; i > 0; i--) {  
+      analogWrite(leftForwards, 255);
+      analogWrite(rightBackwards, 255);
+      delayMicroseconds(75);  // Delaying 50 Micro Seconds
+      analogWrite(leftForwards, 0);
+      analogWrite(rightBackwards, 0);
+      delayMicroseconds(25);
+    }
+    delay(350); // Delay to counter act motor sound self activation
+    z = 370;  // Setting Z outside the trigger range
+  }
+
+  // Noise is to the left turn RIGHT
+  else if (((50 > z) && (z >= 0)) || ((360 >= z) && (z > 290))) {
+    //Serial.print("Z is LEFT");
+    //Serial.println(z);
+
     for (int i = 5000; i > 0; i--) {  
       analogWrite(leftForwards, 255);
       analogWrite(rightBackwards, 255);
@@ -69,15 +108,15 @@ void loop() {
       analogWrite(rightBackwards, 0);
       delayMicroseconds(25);
     }
+    delay(350); // Delay to counter act motor sound self activation
     z = 370;  // Setting Z outside the trigger range
   }
 
   // Noise is behind drive STRAIGHT 
   else if ((130 >= z) && (z >= 50)) {
-    Serial.print("Z is STRAIGHT ");
-    Serial.println(z);
-    delay(1);
-    for (int i = 5000; i > 0; i--) {  
+    //Serial.print("Z is STRAIGHT ");
+    //Serial.println(z);
+    for (int i = 6000; i > 0; i--) {  
       analogWrite(leftForwards, 255); // Setting V to max (Voltage)
       analogWrite(rightForwards, 255);
       delayMicroseconds(75);      // Delaying 50 Micro Seconds for PWM
@@ -85,6 +124,7 @@ void loop() {
       analogWrite(rightForwards, 0);
       delayMicroseconds(25);
     }
+    delay(350); // Delay to counter act motor sound self activation
     z = 370;  // Setting Z outside the trigger range
   }
   else {
@@ -101,7 +141,7 @@ void receiveEvent(int howMany) {
   analogWrite(rightBackwards, 0);
   analogWrite(leftForwards, 0);
   analogWrite(leftBackwards, 0);
-  //
+  
   
   while(0 < Wire.available()) {
     char c = Wire.read();
@@ -113,5 +153,4 @@ void receiveEvent(int howMany) {
   z = buff.toInt();
   Serial.print("Z is ");
   Serial.println(z);
-
 }
