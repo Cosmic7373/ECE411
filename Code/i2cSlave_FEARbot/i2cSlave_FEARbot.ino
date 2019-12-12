@@ -30,15 +30,15 @@ void setup() {
   // PD6 Pin 26 and PD7 Pin 27 Paired
 }
 
-
-
 void loop() {
-  delay(100);
+  //delay(100);
   // Noise is to the Back-Right turn LEFT
-  if ((270 >= z) && (z > 110)) {
+  if ((270 >= z) && (z > 130)) {
     // Add 1 millisecond delay
+    Serial.print("Z is RIGHT");
+    Serial.println(z);
     delay(1);
-    for (int i = 1000; i > 0; i--) {  
+    for (int i = 5000; i > 0; i--) {  
       analogWrite(leftBackwards, 255);
       analogWrite(rightForwards, 255);
       delayMicroseconds(75);  // Delaying 50 Micro Seconds
@@ -57,9 +57,11 @@ void loop() {
   // Noise is to the ??? turn
   // MIGHT HAVE ERRORS
   // Noise is to the Back-Left turn RIGHT
-  else if (((70 > z) && (z >= 0)) || ((360 >= z) && (z > 270))) {
+  else if (((50 > z) && (z >= 0)) || ((360 >= z) && (z > 270))) {
+    Serial.print("Z is LEFT");
+    Serial.println(z);
     delay(1);
-    for (int i = 1000; i > 0; i--) {  
+    for (int i = 5000; i > 0; i--) {  
       analogWrite(leftForwards, 255);
       analogWrite(rightBackwards, 255);
       delayMicroseconds(75);  // Delaying 50 Micro Seconds
@@ -71,9 +73,11 @@ void loop() {
   }
 
   // Noise is behind drive STRAIGHT 
-  else if ((110 >= z) && (z >= 70)) {
+  else if ((130 >= z) && (z >= 50)) {
+    Serial.print("Z is STRAIGHT ");
+    Serial.println(z);
     delay(1);
-    for (int i = 1000; i > 0; i--) {  
+    for (int i = 5000; i > 0; i--) {  
       analogWrite(leftForwards, 255); // Setting V to max (Voltage)
       analogWrite(rightForwards, 255);
       delayMicroseconds(75);      // Delaying 50 Micro Seconds for PWM
